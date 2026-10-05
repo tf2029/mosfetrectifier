@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LT4322RMS8#PBF
+D Power Management Specialized - PMIC Floating, High-Voltage Active Rectifier Controller
+K
+F https://www.mouser.cn/datasheet/2/609/lt4322-3197784.pdf
+$ENDCMP
+#
+#End Doc Library
