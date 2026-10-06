@@ -505,6 +505,162 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "IRFS7430-7P:IRFS7430-7P"
 			(pin_names
 				(hide yes)
@@ -1228,6 +1384,292 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Library:DN3135"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "DN3135"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Depletion-mode N-channel MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DN3135_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DN3135_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 135.89 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "005db095-bd67-4581-8188-de6ee9272ba4")
 	)
 	(junction
 		(at 73.66 167.64)
@@ -1242,16 +1684,34 @@
 		(uuid "127bc319-5909-4338-a7b2-6d50f570d889")
 	)
 	(junction
+		(at 114.3 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1328ffa0-7858-4328-a522-dd2592edd77f")
+	)
+	(junction
+		(at 58.42 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1355e135-3b3f-4645-be28-27e65d35e26d")
+	)
+	(junction
 		(at 78.74 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "141688df-d515-4003-8a80-d623e08f3ec2")
 	)
 	(junction
-		(at 125.73 34.29)
+		(at 86.36 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1494a54a-5d8d-43eb-86cf-cebf8190ede8")
+		(uuid "22fb808a-4f15-454a-9250-7bfabec71478")
+	)
+	(junction
+		(at 137.16 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23f83a6e-62f2-4f6d-926e-d3dbc8799447")
 	)
 	(junction
 		(at 125.73 46.99)
@@ -1266,22 +1726,46 @@
 		(uuid "29fe3e05-d603-4958-a4be-7e4e49db7dfd")
 	)
 	(junction
+		(at 45.72 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "313c640a-c823-4f8e-865f-fb598a012d40")
+	)
+	(junction
+		(at 59.69 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34407862-a278-4d0f-9d2e-4354373ddf26")
+	)
+	(junction
 		(at 120.65 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3723ea71-f866-4b6c-ad1d-8c7894ac2b18")
 	)
 	(junction
-		(at 73.66 160.02)
+		(at 114.3 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4b172e1d-c53f-420f-83eb-18da06a69c19")
+		(uuid "3b794f0f-9022-45ae-b7df-3bf3e872b176")
 	)
 	(junction
-		(at 125.73 88.9)
+		(at 115.57 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "50b60298-feca-494b-ac98-16623737ccbc")
+		(uuid "40a8f8ed-bdbb-4969-8f37-64dca9043ba6")
+	)
+	(junction
+		(at 137.16 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52f4a037-965a-4da9-9ff9-4686470e76fb")
+	)
+	(junction
+		(at 113.03 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "579fecea-0b22-4ad4-901c-c82ac38dfc9b")
 	)
 	(junction
 		(at 120.65 107.95)
@@ -1290,16 +1774,64 @@
 		(uuid "57aa7258-1199-4116-9c79-01eb72405e8b")
 	)
 	(junction
+		(at 135.89 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a2bc255-04d6-482c-8ab1-9532e8de83b7")
+	)
+	(junction
+		(at 58.42 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a6a15a8-9795-49e9-84ca-888c9c35169b")
+	)
+	(junction
+		(at 85.09 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cc2a04e-ddaf-4196-a353-43413d09dfd8")
+	)
+	(junction
+		(at 137.16 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "611a4531-f3ad-4de1-af27-741846fa06fb")
+	)
+	(junction
 		(at 151.13 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63c5bcb2-142e-4db7-a303-d253df14ed88")
 	)
 	(junction
+		(at 86.36 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ae3217e-786d-4c93-bdda-e8835e798c1f")
+	)
+	(junction
+		(at 125.73 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a0a8ab4-82d0-48c9-b5a4-0efbb6fc0e8f")
+	)
+	(junction
 		(at 73.66 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b979b02-dc36-45c6-a868-4bf70c659c66")
+	)
+	(junction
+		(at 50.8 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fcbb7ca-3575-464d-8a40-9697ad8368c1")
+	)
+	(junction
+		(at 76.2 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86a5810f-53e3-4129-b6b3-2bce237ce327")
 	)
 	(junction
 		(at 125.73 135.89)
@@ -1320,6 +1852,12 @@
 		(uuid "8f7040a9-b32e-46ff-9782-f4821f7461e6")
 	)
 	(junction
+		(at 50.8 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f8cbec6-6265-4bd6-95e0-49215a682760")
+	)
+	(junction
 		(at 125.73 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1338,22 +1876,34 @@
 		(uuid "95bc7e8c-c7d0-4704-b5d9-85f6a36f1d09")
 	)
 	(junction
+		(at 85.09 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9cdda3bb-4184-4cac-b357-7c7a44639821")
+	)
+	(junction
+		(at 45.72 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9debf3b3-cb9c-4e25-88d7-8eefbad2efad")
+	)
+	(junction
 		(at 73.66 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a361c40a-68d4-4c87-97e4-647e4c54e045")
 	)
 	(junction
-		(at 73.66 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a88de134-9933-43f1-9e71-9ed8cf11e515")
-	)
-	(junction
 		(at 73.66 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a98f5636-fa65-4e04-9d71-fd05cae7314e")
+	)
+	(junction
+		(at 58.42 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae5e30f6-ecd4-49b7-abe4-4540f3a759e8")
 	)
 	(junction
 		(at 158.75 46.99)
@@ -1368,22 +1918,28 @@
 		(uuid "b32f5c8f-534d-4d71-8aa4-01af956d7f1f")
 	)
 	(junction
-		(at 73.66 58.42)
+		(at 135.89 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d9b02ff0-2c52-4092-9175-45772f1331ec")
+		(uuid "b6375ab9-5e5d-4565-818a-34dfcaed740b")
 	)
 	(junction
-		(at 73.66 50.8)
+		(at 85.09 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "df745149-8d4b-4910-bf92-a737b3905d5e")
+		(uuid "d2be0b36-cab4-429e-8260-a629ad4f9894")
 	)
 	(junction
-		(at 125.73 26.67)
+		(at 113.03 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "df8621fe-4598-4716-99a0-99ba2aed5fd8")
+		(uuid "e767e886-8e5c-4363-8103-0a184faf85d2")
+	)
+	(junction
+		(at 113.03 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8c62d18-c61a-4564-ae94-a7f75c6be483")
 	)
 	(junction
 		(at 78.74 31.75)
@@ -1392,20 +1948,10 @@
 		(uuid "efeec5d1-5d3f-49d1-a913-f9c12dcef7c2")
 	)
 	(junction
-		(at 125.73 143.51)
+		(at 86.36 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fc6150c4-6948-42d7-9f03-a059bb9ce8c1")
-	)
-	(wire
-		(pts
-			(xy 73.66 68.58) (xy 73.66 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "031fded7-933c-4e8e-b0af-d5b82e3a1a54")
+		(uuid "f4a99a6e-b8cc-40ca-81f9-a05c8e30fd1f")
 	)
 	(wire
 		(pts
@@ -1419,23 +1965,43 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 68.58) (xy 73.66 68.58)
+			(xy 86.36 34.29) (xy 86.36 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0491c2d4-8e5b-4b8b-ac42-1c5541dc87a0")
+		(uuid "0430fc4b-cdfc-4ac7-af74-0c8ba967bb49")
 	)
 	(wire
 		(pts
-			(xy 73.66 92.71) (xy 73.66 105.41)
+			(xy 58.42 15.24) (xy 85.09 15.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "05261a88-0cec-4330-a3d2-28ae143e953e")
+		(uuid "0555210e-99e8-4eee-93c1-c4f0377c70f2")
+	)
+	(wire
+		(pts
+			(xy 76.2 58.42) (xy 80.01 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0762fe86-84ea-494c-a604-21933c0489bf")
+	)
+	(wire
+		(pts
+			(xy 85.09 26.67) (xy 83.82 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "077595b6-a290-4e3f-8292-1eb058e2e525")
 	)
 	(wire
 		(pts
@@ -1446,6 +2012,26 @@
 			(type default)
 		)
 		(uuid "0920cff4-96c3-42df-a55d-8deff2439d29")
+	)
+	(wire
+		(pts
+			(xy 86.36 92.71) (xy 130.81 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09e3e993-f82c-4251-9dd6-91056377c4d7")
+	)
+	(wire
+		(pts
+			(xy 135.89 125.73) (xy 168.91 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b335340-e60b-442f-aedf-5e0dec86cf8a")
 	)
 	(wire
 		(pts
@@ -1479,6 +2065,26 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 46.99) (xy 71.12 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15defc37-4947-462b-b00d-042812c49f7e")
+	)
+	(wire
+		(pts
+			(xy 86.36 147.32) (xy 130.81 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15ed8c3d-809e-4cba-90ca-12c2d69e4c16")
+	)
+	(wire
+		(pts
 			(xy 45.72 147.32) (xy 45.72 43.18)
 		)
 		(stroke
@@ -1499,6 +2105,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 124.46) (xy 137.16 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18043ae5-1556-4869-98a2-4bc2e742483b")
+	)
+	(wire
+		(pts
 			(xy 78.74 138.43) (xy 86.36 138.43)
 		)
 		(stroke
@@ -1506,6 +2122,26 @@
 			(type default)
 		)
 		(uuid "198aec2c-d4e3-4561-9826-237f0755332d")
+	)
+	(wire
+		(pts
+			(xy 58.42 142.24) (xy 58.42 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19a1695f-8ec5-49f4-8892-604c5997101b")
+	)
+	(wire
+		(pts
+			(xy 137.16 101.6) (xy 158.75 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a2133aa-deef-4719-9596-f79f5c81849d")
 	)
 	(wire
 		(pts
@@ -1519,6 +2155,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 34.29) (xy 151.13 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b99fa4e-25be-49b0-a9d8-b52cdc56830c")
+	)
+	(wire
+		(pts
 			(xy 125.73 135.89) (xy 119.38 135.89)
 		)
 		(stroke
@@ -1529,7 +2175,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 167.64) (xy 115.57 167.64)
+			(xy 113.03 167.64) (xy 114.3 167.64)
 		)
 		(stroke
 			(width 0)
@@ -1539,23 +2185,53 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 123.19) (xy 73.66 113.03)
+			(xy 58.42 127) (xy 85.09 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2868d50f-d3bc-4905-a731-3698ab7c2cac")
+		(uuid "1f5108e1-e711-4109-88e3-6aa7b225da4c")
 	)
 	(wire
 		(pts
-			(xy 73.66 147.32) (xy 73.66 160.02)
+			(xy 68.58 105.41) (xy 68.58 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2da3e28b-068b-4c76-a84c-863f8d2cc4b5")
+		(uuid "233d01ac-2be3-4564-b7c5-56ec443ca916")
+	)
+	(wire
+		(pts
+			(xy 45.72 177.8) (xy 125.73 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "283fefa8-2f38-41d1-b089-df0aef9a6791")
+	)
+	(wire
+		(pts
+			(xy 137.16 69.85) (xy 137.16 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28fd2818-b59a-45f2-8c37-230fd636060d")
+	)
+	(wire
+		(pts
+			(xy 45.72 167.64) (xy 45.72 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c4e0ba4-aebb-44b8-8de2-c91c9fad2d6d")
 	)
 	(wire
 		(pts
@@ -1569,7 +2245,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 46.99) (xy 158.75 46.99)
+			(xy 125.73 46.99) (xy 137.16 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1599,13 +2275,13 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 123.19) (xy 73.66 123.19)
+			(xy 59.69 92.71) (xy 50.8 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "347ed9d6-68a9-4424-bc79-377bc4d93035")
+		(uuid "350194c4-4b24-44c0-abde-ba120382e725")
 	)
 	(wire
 		(pts
@@ -1619,6 +2295,46 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 180.34) (xy 137.16 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "367f6300-c706-4d48-8e89-64fa87a7cd81")
+	)
+	(wire
+		(pts
+			(xy 114.3 167.64) (xy 115.57 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "382d99eb-f025-412a-9ac1-f2bacf163c67")
+	)
+	(wire
+		(pts
+			(xy 58.42 33.02) (xy 58.42 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3884284b-7b6d-484d-96d6-3e66d88311ce")
+	)
+	(wire
+		(pts
+			(xy 113.03 46.99) (xy 71.12 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ad0dbb6-0627-449d-a9a9-319acd53b3b4")
+	)
+	(wire
+		(pts
 			(xy 86.36 147.32) (xy 86.36 143.51)
 		)
 		(stroke
@@ -1629,13 +2345,23 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 16.51) (xy 125.73 26.67)
+			(xy 86.36 38.1) (xy 130.81 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3b6f5153-d846-4e4e-a504-6a2a1b2dcba7")
+		(uuid "3b8d7a0b-12c0-43ab-b180-90c6d2afa31c")
+	)
+	(wire
+		(pts
+			(xy 59.69 72.39) (xy 85.09 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3be35916-9dde-4b70-889c-eeb5b78d51f4")
 	)
 	(wire
 		(pts
@@ -1649,13 +2375,33 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 34.29) (xy 151.13 34.29)
+			(xy 135.89 22.86) (xy 135.89 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3fa964ed-d7af-4d5a-bb45-162eeecc1741")
+		(uuid "3d6af1f1-677a-4a79-b6ee-5ed7f6c13ff1")
+	)
+	(wire
+		(pts
+			(xy 135.89 16.51) (xy 135.89 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db86d3b-c839-4bc4-8770-eb75bb0380bd")
+	)
+	(wire
+		(pts
+			(xy 50.8 113.03) (xy 50.8 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "406e48f1-15b7-4e14-ad57-72ffb3235c3b")
 	)
 	(wire
 		(pts
@@ -1666,6 +2412,16 @@
 			(type default)
 		)
 		(uuid "42884473-866d-4eb6-b871-fed23e4ad16f")
+	)
+	(wire
+		(pts
+			(xy 125.73 77.47) (xy 125.73 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42c5c343-9a78-416a-8907-f3f6f350141c")
 	)
 	(wire
 		(pts
@@ -1709,6 +2465,26 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 69.85) (xy 137.16 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "476788b9-6d21-4fe4-b80e-7e9472e96fc8")
+	)
+	(wire
+		(pts
+			(xy 135.89 71.12) (xy 135.89 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "506e31b0-e21a-4941-bb7e-e99e2a6ef55e")
+	)
+	(wire
+		(pts
 			(xy 125.73 81.28) (xy 125.73 88.9)
 		)
 		(stroke
@@ -1719,6 +2495,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 123.19) (xy 125.73 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53b57337-afcd-4694-9d7d-76e2973e0a0f")
+	)
+	(wire
+		(pts
 			(xy 125.73 135.89) (xy 125.73 143.51)
 		)
 		(stroke
@@ -1726,6 +2512,16 @@
 			(type default)
 		)
 		(uuid "547d1e80-b276-4291-bc82-cdb7549a130c")
+	)
+	(wire
+		(pts
+			(xy 63.5 113.03) (xy 50.8 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56eca7ea-cfca-4564-a7d4-0972ba1d690e")
 	)
 	(wire
 		(pts
@@ -1759,6 +2555,26 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 135.89) (xy 83.82 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ef066b1-81fd-4793-aed5-3c10bc62fcf4")
+	)
+	(wire
+		(pts
+			(xy 45.72 167.64) (xy 63.5 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "613defbe-50be-4112-a566-7bf9c9942b01")
+	)
+	(wire
+		(pts
 			(xy 125.73 156.21) (xy 120.65 156.21)
 		)
 		(stroke
@@ -1769,7 +2585,17 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 156.21) (xy 177.8 156.21)
+			(xy 68.58 160.02) (xy 68.58 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "654dc242-17a8-4eca-98b2-c4741d52fa2e")
+	)
+	(wire
+		(pts
+			(xy 125.73 156.21) (xy 137.16 156.21)
 		)
 		(stroke
 			(width 0)
@@ -1799,13 +2625,23 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 88.9) (xy 151.13 88.9)
+			(xy 45.72 177.8) (xy 45.72 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "69e4e700-e86a-4f8c-8a4a-8e8dd1b93b53")
+		(uuid "69a8e53f-14d6-439a-be2c-938acdbbdb5f")
+	)
+	(wire
+		(pts
+			(xy 137.16 156.21) (xy 177.8 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bbdef02-fe3d-409d-a6c0-d4cd37e7c92b")
 	)
 	(wire
 		(pts
@@ -1819,7 +2655,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 92.71) (xy 50.8 92.71)
+			(xy 73.66 92.71) (xy 59.69 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1839,6 +2675,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 26.67) (xy 125.73 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "727ff3df-d497-46ad-abe8-9ec7494f02ce")
+	)
+	(wire
+		(pts
 			(xy 73.66 160.02) (xy 80.01 160.02)
 		)
 		(stroke
@@ -1849,13 +2695,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 177.8) (xy 73.66 167.64)
+			(xy 58.42 38.1) (xy 45.72 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7613675f-f1f5-4d07-8a41-0cb7840f8314")
+		(uuid "769c988a-0d4c-4d46-8d06-f89252f2553f")
 	)
 	(wire
 		(pts
@@ -1899,23 +2745,33 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 38.1) (xy 73.66 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c5ee60f-5755-4351-95ad-f1bd0b2fc403")
-	)
-	(wire
-		(pts
-			(xy 73.66 125.73) (xy 125.73 125.73)
+			(xy 73.66 125.73) (xy 135.89 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "81882bd5-f525-4f59-a11c-5c2371e01d1f")
+	)
+	(wire
+		(pts
+			(xy 130.81 139.7) (xy 130.81 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "838fa977-6939-440f-bfb7-0550baa72ecd")
+	)
+	(wire
+		(pts
+			(xy 68.58 101.6) (xy 113.03 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83eea49a-1b58-41db-9023-e767e96b439e")
 	)
 	(wire
 		(pts
@@ -1926,6 +2782,16 @@
 			(type default)
 		)
 		(uuid "85b26890-99c6-44f9-8ed8-6bd7fcba972a")
+	)
+	(wire
+		(pts
+			(xy 76.2 50.8) (xy 76.2 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85cf3967-6b38-48fe-91cc-0aa811344609")
 	)
 	(wire
 		(pts
@@ -1946,6 +2812,16 @@
 			(type default)
 		)
 		(uuid "87f87b37-678f-4eef-9ad2-392f64a7152b")
+	)
+	(wire
+		(pts
+			(xy 85.09 15.24) (xy 85.09 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8971655a-638c-4156-ba6b-a8557d62f608")
 	)
 	(wire
 		(pts
@@ -1979,16 +2855,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 26.67) (xy 125.73 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ccb7b70-03e7-47ec-92db-644f13174b4d")
-	)
-	(wire
-		(pts
 			(xy 120.65 165.1) (xy 113.03 165.1)
 		)
 		(stroke
@@ -1996,6 +2862,36 @@
 			(type default)
 		)
 		(uuid "8ebbe5b2-ded1-4608-9db4-e2b13f222544")
+	)
+	(wire
+		(pts
+			(xy 115.57 58.42) (xy 115.57 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fbcb5bd-4ba4-4e1a-8eb8-48c6e098eef5")
+	)
+	(wire
+		(pts
+			(xy 85.09 127) (xy 85.09 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "905d1b84-e21e-4933-88d3-425bb66f18b9")
+	)
+	(wire
+		(pts
+			(xy 130.81 85.09) (xy 130.81 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91370750-d981-4d7b-9207-89eddf411528")
 	)
 	(wire
 		(pts
@@ -2049,23 +2945,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 81.28) (xy 83.82 81.28)
+			(xy 86.36 81.28) (xy 85.09 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "97213346-a8ba-4999-a74f-9777e9e43b5a")
-	)
-	(wire
-		(pts
-			(xy 73.66 71.12) (xy 125.73 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "983a31e7-cacd-4977-b525-8b7bedca6a85")
 	)
 	(wire
 		(pts
@@ -2089,23 +2975,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 38.1) (xy 45.72 38.1)
+			(xy 73.66 38.1) (xy 58.42 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9a185b79-3013-423e-8a61-04c640b5b23a")
-	)
-	(wire
-		(pts
-			(xy 125.73 71.12) (xy 125.73 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a25b1d3-fb99-42c8-a9b8-ee4fa79afc06")
 	)
 	(wire
 		(pts
@@ -2149,23 +3025,23 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 143.51) (xy 168.91 143.51)
+			(xy 135.89 71.12) (xy 151.13 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a38f3326-33c1-468b-a649-410a0b5047e2")
+		(uuid "a2461535-6276-49a8-b1e9-944e3e74273e")
 	)
 	(wire
 		(pts
-			(xy 125.73 125.73) (xy 125.73 135.89)
+			(xy 114.3 167.64) (xy 114.3 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a580107d-bac3-4dc7-ade7-d4f82cac83e2")
+		(uuid "a253f245-2dc3-4b79-9c92-09abb40a2b06")
 	)
 	(wire
 		(pts
@@ -2176,16 +3052,6 @@
 			(type default)
 		)
 		(uuid "a5a00690-b578-4808-96d3-106de17f556b")
-	)
-	(wire
-		(pts
-			(xy 86.36 38.1) (xy 86.36 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5ac9e78-51f3-42b1-9b9e-f67439638283")
 	)
 	(wire
 		(pts
@@ -2249,7 +3115,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 147.32) (xy 73.66 147.32)
+			(xy 45.72 147.32) (xy 58.42 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2259,7 +3125,27 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 135.89) (xy 83.82 135.89)
+			(xy 73.66 71.12) (xy 135.89 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf06cea-3542-4419-92ff-fb68f79ac636")
+	)
+	(wire
+		(pts
+			(xy 58.42 38.1) (xy 58.42 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae3af39d-54b6-4ec5-97fa-b74604365fd2")
+	)
+	(wire
+		(pts
+			(xy 86.36 135.89) (xy 85.09 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2279,33 +3165,33 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 50.8) (xy 80.01 50.8)
+			(xy 58.42 147.32) (xy 73.66 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b6ef42ee-04e0-4240-8f74-51b2820498ad")
+		(uuid "b8f3264c-51db-4551-a9e2-f20ae5489d2d")
 	)
 	(wire
 		(pts
-			(xy 125.73 177.8) (xy 73.66 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8779beb-7ccd-43b8-8b29-f4b1422a5d21")
-	)
-	(wire
-		(pts
-			(xy 125.73 101.6) (xy 158.75 101.6)
+			(xy 125.73 101.6) (xy 137.16 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b94e4c8e-33e3-42f5-835d-09a0bb5b231f")
+	)
+	(wire
+		(pts
+			(xy 114.3 113.03) (xy 115.57 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9eaedb3-895c-4f8b-be13-f082701dbf53")
 	)
 	(wire
 		(pts
@@ -2329,13 +3215,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 58.42) (xy 73.66 50.8)
+			(xy 58.42 58.42) (xy 66.04 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c264c541-2ecd-4259-9436-4763b79ac552")
+		(uuid "bb4ee35c-f22c-46a9-be48-7e215c00d76f")
 	)
 	(wire
 		(pts
@@ -2349,17 +3235,17 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 58.42) (xy 80.01 58.42)
+			(xy 137.16 46.99) (xy 158.75 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5d35f6b-12f2-4665-9214-34ecb83db6a9")
+		(uuid "cc8223e9-915e-4499-b206-8c0857d916a1")
 	)
 	(wire
 		(pts
-			(xy 73.66 16.51) (xy 125.73 16.51)
+			(xy 73.66 16.51) (xy 135.89 16.51)
 		)
 		(stroke
 			(width 0)
@@ -2389,6 +3275,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 72.39) (xy 85.09 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d029221b-a861-41ef-a875-962622d9ff90")
+	)
+	(wire
+		(pts
 			(xy 158.75 101.6) (xy 158.75 46.99)
 		)
 		(stroke
@@ -2396,6 +3292,16 @@
 			(type default)
 		)
 		(uuid "d113baa9-5a07-4de1-bcfd-274f1acf2416")
+	)
+	(wire
+		(pts
+			(xy 151.13 34.29) (xy 151.13 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2ca62e3-47c2-4c02-894c-b5680bde3c42")
 	)
 	(wire
 		(pts
@@ -2409,6 +3315,26 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 87.63) (xy 59.69 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d48b5ea1-0c9d-4ff0-b7f9-9cd29142abf2")
+	)
+	(wire
+		(pts
+			(xy 58.42 68.58) (xy 125.73 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6d30c5d-b7f0-4011-aecf-3c804e89e489")
+	)
+	(wire
+		(pts
 			(xy 78.74 140.97) (xy 78.74 146.05)
 		)
 		(stroke
@@ -2416,6 +3342,26 @@
 			(type default)
 		)
 		(uuid "d786342d-5d7b-4783-bbb9-bc9fd9a61245")
+	)
+	(wire
+		(pts
+			(xy 85.09 81.28) (xy 83.82 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7d3c412-d2e5-4b85-9ea8-3b55038057f0")
+	)
+	(wire
+		(pts
+			(xy 168.91 34.29) (xy 168.91 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d89c3062-41e8-4aab-9f40-7ae9e237b197")
 	)
 	(wire
 		(pts
@@ -2449,6 +3395,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 124.46) (xy 137.16 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da8c069b-2428-4b42-b7b9-7f310db7b6d3")
+	)
+	(wire
+		(pts
 			(xy 113.03 46.99) (xy 113.03 50.8)
 		)
 		(stroke
@@ -2469,13 +3425,53 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 88.9) (xy 151.13 34.29)
+			(xy 137.16 180.34) (xy 137.16 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e67bd3a6-0c5d-4d94-aa4d-c81bed3c832b")
+		(uuid "e13820a8-f52d-40cc-a5de-2bf646344f24")
+	)
+	(wire
+		(pts
+			(xy 135.89 125.73) (xy 135.89 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3646e85-28d3-4a35-9c5f-ccc149940444")
+	)
+	(wire
+		(pts
+			(xy 76.2 50.8) (xy 80.01 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3e40438-01e0-4b10-9889-51626494e9b8")
+	)
+	(wire
+		(pts
+			(xy 130.81 30.48) (xy 130.81 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e59b9c64-f38f-4423-87a7-d827780d668a")
+	)
+	(wire
+		(pts
+			(xy 68.58 156.21) (xy 113.03 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e60a0a3e-33ca-46be-a30a-b085dbce3627")
 	)
 	(wire
 		(pts
@@ -2486,6 +3482,16 @@
 			(type default)
 		)
 		(uuid "e88e46ee-3e6e-443c-8870-6dfa958da716")
+	)
+	(wire
+		(pts
+			(xy 114.3 113.03) (xy 114.3 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb72974d-c67e-499d-a0cf-d75b1565af29")
 	)
 	(wire
 		(pts
@@ -2519,6 +3525,26 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 22.86) (xy 125.73 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f02d1499-2fc0-46ba-bde1-e47bb56fbec1")
+	)
+	(wire
+		(pts
+			(xy 50.8 92.71) (xy 50.8 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f25b9ab2-dacc-489a-8475-0434fd34ac11")
+	)
+	(wire
+		(pts
 			(xy 113.03 156.21) (xy 113.03 160.02)
 		)
 		(stroke
@@ -2529,13 +3555,13 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 143.51) (xy 168.91 34.29)
+			(xy 125.73 132.08) (xy 125.73 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f3ca39bd-6597-4fd9-9772-33bd30c83620")
+		(uuid "f423218e-e55e-4dc9-b895-a44409554b3f")
 	)
 	(wire
 		(pts
@@ -2579,7 +3605,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 113.03) (xy 115.57 113.03)
+			(xy 113.03 113.03) (xy 114.3 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2589,13 +3615,107 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 26.67) (xy 83.82 26.67)
+			(xy 86.36 26.67) (xy 85.09 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fed6f507-f722-444b-a47f-7a8f7e2bbb84")
+	)
+	(wire
+		(pts
+			(xy 58.42 58.42) (xy 58.42 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fefc24f0-73a6-4bd0-8c84-3b25399eae78")
+	)
+	(symbol
+		(lib_id "Library:DN3135")
+		(at 130.81 25.4 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02fdeeb3-0d84-4d3c-832a-94db79e2426b")
+		(property "Reference" "Q7"
+			(at 130.81 16.51 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DN3135"
+			(at 130.81 19.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:SOT-89_3MC_MCH"
+			(at 130.81 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Depletion-mode N-channel MOSFET"
+			(at 130.81 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "16412023-fd43-4266-a1d6-154c5407df9c")
+		)
+		(pin "3"
+			(uuid "be87ea22-12bc-4225-8856-86964201ffc3")
+		)
+		(pin "2"
+			(uuid "2de6ea72-f6f9-425a-b6be-ed2c1b73f9d7")
+		)
+		(instances
+			(project "better"
+				(path "/a0f3f199-a324-45eb-bc47-ebd3fcc9c215"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -2629,7 +3749,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 86.36 148.2852 0)
 			(hide yes)
 			(show_name no)
@@ -2879,7 +3999,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 86.36 93.6752 0)
 			(hide yes)
 			(show_name no)
@@ -3706,6 +4826,172 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 58.42 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d0c0312-f6ac-44d1-bff4-10861a493618")
+		(property "Reference" "C1"
+			(at 60.96 34.2962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 60.96 36.8362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 58.42 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 58.42 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f6266263-ef57-4791-a877-45382b8eec09")
+		)
+		(pin "2"
+			(uuid "1632b1f7-7197-47b6-80f9-b95e6a9d7ecc")
+		)
+		(instances
+			(project "better"
+				(path "/a0f3f199-a324-45eb-bc47-ebd3fcc9c215"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:DN3135")
+		(at 130.81 134.62 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "610670b0-907c-43cd-82c6-e26456eb5ee0")
+		(property "Reference" "Q9"
+			(at 130.81 125.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DN3135"
+			(at 130.81 128.27 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:SOT-89_3MC_MCH"
+			(at 130.81 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Depletion-mode N-channel MOSFET"
+			(at 130.81 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "76217c85-776f-4268-9195-d47ef6ef4ad8")
+		)
+		(pin "3"
+			(uuid "f40a7de5-d66d-4288-9799-55ffdcedeb10")
+		)
+		(pin "2"
+			(uuid "3ba07102-cd15-48af-b0d9-205edf9f5b84")
+		)
+		(instances
+			(project "better"
+				(path "/a0f3f199-a324-45eb-bc47-ebd3fcc9c215"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "IRFS7430-7P:IRFS7430-7P")
 		(at 78.74 133.35 0)
 		(mirror y)
@@ -3840,6 +5126,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Library:DN3135")
+		(at 68.58 110.49 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8eb91181-32e1-49f4-9e27-57c32313ad30")
+		(property "Reference" "Q11"
+			(at 68.58 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DN3135"
+			(at 68.58 116.84 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:SOT-89_3MC_MCH"
+			(at 68.58 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Depletion-mode N-channel MOSFET"
+			(at 68.58 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4c80ef09-d06c-4d87-b23e-b9a25f825278")
+		)
+		(pin "3"
+			(uuid "74568f29-3e78-49cd-ad75-74cbfe8c7294")
+		)
+		(pin "2"
+			(uuid "ac8683ae-0a99-41eb-92a1-55c3861365dc")
+		)
+		(instances
+			(project "better"
+				(path "/a0f3f199-a324-45eb-bc47-ebd3fcc9c215"
+					(reference "Q11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "IRFS7430-7P:IRFS7430-7P")
 		(at 78.74 78.74 0)
 		(mirror y)
@@ -3968,6 +5337,88 @@
 			(project "better"
 				(path "/a0f3f199-a324-45eb-bc47-ebd3fcc9c215"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 137.16 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96ce5133-96a5-4773-9c27-929d05da9538")
+		(property "Reference" "C4"
+			(at 139.7 102.8762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 139.7 105.4162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 137.16 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 137.16 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f75ff80a-a27a-413d-93fe-33e3457c69cb")
+		)
+		(pin "2"
+			(uuid "0773ec21-fd0a-4b6c-a8db-e0bd998718f5")
+		)
+		(instances
+			(project "better"
+				(path "/a0f3f199-a324-45eb-bc47-ebd3fcc9c215"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4190,6 +5641,334 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 58.42 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1253325-5b1c-4c5b-bf97-5a0bfa9da7fd")
+		(property "Reference" "C5"
+			(at 60.96 143.5162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 60.96 146.0562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 58.42 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 58.42 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c56623c8-ea3d-4ab8-bf7d-cd9905e4e210")
+		)
+		(pin "2"
+			(uuid "b4f2e873-6354-42d0-a1af-71d26e66a352")
+		)
+		(instances
+			(project "better"
+				(path "/a0f3f199-a324-45eb-bc47-ebd3fcc9c215"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 137.16 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c558aa01-4028-4dc8-b325-97b8149d75d8")
+		(property "Reference" "C2"
+			(at 139.7 48.2662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 139.7 50.8062 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 137.16 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 137.16 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4c1ac205-bf00-44f9-8a48-4e4f471dc7ee")
+		)
+		(pin "2"
+			(uuid "076fc887-1e17-41d3-936e-ee767a30b9af")
+		)
+		(instances
+			(project "better"
+				(path "/a0f3f199-a324-45eb-bc47-ebd3fcc9c215"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 137.16 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c654e1d7-9a48-462c-ad1c-b860e1a0930d")
+		(property "Reference" "C6"
+			(at 139.7 157.4862 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 139.7 160.0262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 137.16 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 137.16 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bd1442de-08f6-4116-8f00-9bf7bd2111ec")
+		)
+		(pin "2"
+			(uuid "ea3e8267-049c-4b54-8819-3da4710e9e7e")
+		)
+		(instances
+			(project "better"
+				(path "/a0f3f199-a324-45eb-bc47-ebd3fcc9c215"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 59.69 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c741dac3-c078-4cd9-b380-8a3aae642cc7")
+		(property "Reference" "C3"
+			(at 62.23 88.9062 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 62.23 91.4462 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 59.69 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 59.69 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3235041d-0343-43ca-b996-213f1b5113a4")
+		)
+		(pin "2"
+			(uuid "5ce49b0b-efe0-43a6-b838-3b032f1a0b83")
+		)
+		(instances
+			(project "better"
+				(path "/a0f3f199-a324-45eb-bc47-ebd3fcc9c215"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 82.55 38.1 90)
 		(mirror x)
@@ -4221,7 +6000,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 86.36 39.0652 0)
 			(hide yes)
 			(show_name no)
@@ -4726,7 +6505,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 113.03 100.6348 0)
 			(hide yes)
 			(show_name no)
@@ -4769,6 +6548,256 @@
 			(project "better"
 				(path "/a0f3f199-a324-45eb-bc47-ebd3fcc9c215"
 					(reference "CVDDA4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:DN3135")
+		(at 71.12 55.88 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dcec0e81-b916-468f-8370-caacf07d61d9")
+		(property "Reference" "Q10"
+			(at 71.12 64.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DN3135"
+			(at 71.12 62.23 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:SOT-89_3MC_MCH"
+			(at 71.12 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Depletion-mode N-channel MOSFET"
+			(at 71.12 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d81ac08d-c2b8-4f36-9d8a-c68459b17faf")
+		)
+		(pin "3"
+			(uuid "52ae177d-f44e-496e-aa58-bc11b70c878c")
+		)
+		(pin "2"
+			(uuid "6d6afa68-30bc-46d4-b5dd-b6261dd2a868")
+		)
+		(instances
+			(project "better"
+				(path "/a0f3f199-a324-45eb-bc47-ebd3fcc9c215"
+					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:DN3135")
+		(at 130.81 80.01 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df586d00-d367-4dad-8e15-19376a74837b")
+		(property "Reference" "Q8"
+			(at 130.81 71.12 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DN3135"
+			(at 130.81 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:SOT-89_3MC_MCH"
+			(at 130.81 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Depletion-mode N-channel MOSFET"
+			(at 130.81 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce95bbda-0d80-4a17-8aea-c92746f793b5")
+		)
+		(pin "3"
+			(uuid "a899fc20-4cc0-437a-9f9d-d6b8c13bc74b")
+		)
+		(pin "2"
+			(uuid "e46d7f2d-db62-4147-8da7-46a525529237")
+		)
+		(instances
+			(project "better"
+				(path "/a0f3f199-a324-45eb-bc47-ebd3fcc9c215"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:DN3135")
+		(at 68.58 165.1 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e08b6cc0-17f4-4d73-83d7-2d791b735be9")
+		(property "Reference" "Q12"
+			(at 68.58 173.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DN3135"
+			(at 68.58 171.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:SOT-89_3MC_MCH"
+			(at 68.58 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Depletion-mode N-channel MOSFET"
+			(at 68.58 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0950470b-e1cb-4794-a580-1dce0074eb32")
+		)
+		(pin "3"
+			(uuid "a29f8a74-89c6-43a6-bcb2-125674ae9aa4")
+		)
+		(pin "2"
+			(uuid "c26908cf-b60c-43d5-b405-2de0b59c0204")
+		)
+		(instances
+			(project "better"
+				(path "/a0f3f199-a324-45eb-bc47-ebd3fcc9c215"
+					(reference "Q12")
 					(unit 1)
 				)
 			)
@@ -4940,7 +6969,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 113.03 46.0248 0)
 			(hide yes)
 			(show_name no)
@@ -5020,7 +7049,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 113.03 155.2448 0)
 			(hide yes)
 			(show_name no)
