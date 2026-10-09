@@ -661,447 +661,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "IRFS7430-7P:IRFS7430-7P"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q1"
-				(at 10.16 -3.0479 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "IRFS7430-7P"
-				(at 10.16 -6.8579 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Insulated-Gate Field-Effect Transistor (IGFET), N-Channel, Enhancement, Body Diode, Pin 1 Gate, 2,3,5,6,7 Source, 4 Drain, 7 Pins"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Infineon Technologies"
-				(at -5.334 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Manufacturer Order Number" "IRFS7430-7P"
-				(at -5.588 -13.208 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "PackageReference" "PG-TO263-7-900"
-				(at -5.588 -15.494 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.8288 1.8288)
-					)
-					(justify left bottom)
-				)
-			)
-			(symbol "IRFS7430-7P_1_0"
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 2.032 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 -0.254) (xy 2.032 -4.826)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -0.254) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 4.064 -3.048) (xy 4.064 -2.032) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width -0.0001)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -3.048) (xy 2.54 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -4.826) (xy 2.54 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -0.762) (xy 2.54 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -0.762) (xy 5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -4.318) (xy 2.54 -4.318)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -5.08) (xy 7.62 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.604 -1.778) (xy 8.636 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 7.62 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -1.778) (xy 6.604 -3.302) (xy 8.636 -3.302) (xy 7.62 -1.778) (xy 7.62 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "2,3,5,6"
-					(at 4.826 -9.398 900)
-					(effects
-						(font
-							(size 0.7112 0.7112)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 5.08)
-					(name "GATE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -10.16 90)
-					(length 5.08)
-					(name "SOURCE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -10.16 90)
-					(length 5.08)
-					(name "SOURCE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 270)
-					(length 5.08)
-					(name "DRAIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -10.16 90)
-					(length 5.08)
-					(name "SOURCE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -10.16 90)
-					(length 5.08)
-					(name "SOURCE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -10.16 90)
-					(length 5.08)
-					(name "SOURCE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(symbol "IRFS7430-7P_1_1"
-				(text "7"
-					(at 7.366 -8.128 900)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "LT4322RMS8#PBF:LT4322RMS8#PBF"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1664,298 +1223,791 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:BSC13DN30NSFD"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BSC13DN30NSFD"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSC13DN30NSFD-DS-v02_01-EN.pdf?fileId=5546d46259b0420a0159d5c940fc0d9a"
+				(at 5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "16A Id, 300V Vds, OptiMOS N-Channel Power MOSFET, 130mOhm Ron, Qg (typ) 30.0nC, PG-TDSON-8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NexFET Power MOSFET N-MOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TDSON*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BSC13DN30NSFD_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BSC13DN30NSFD_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
-		(at 135.89 71.12)
+		(at 137.16 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "005db095-bd67-4581-8188-de6ee9272ba4")
 	)
 	(junction
-		(at 73.66 167.64)
+		(at 74.93 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0bea2cf1-8076-4f7c-893c-589e44c21dc2")
 	)
 	(junction
-		(at 125.73 156.21)
+		(at 127 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "127bc319-5909-4338-a7b2-6d50f570d889")
 	)
 	(junction
-		(at 114.3 113.03)
+		(at 115.57 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1328ffa0-7858-4328-a522-dd2592edd77f")
 	)
 	(junction
-		(at 58.42 58.42)
+		(at 59.69 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1355e135-3b3f-4645-be28-27e65d35e26d")
 	)
 	(junction
-		(at 78.74 140.97)
+		(at 80.01 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "141688df-d515-4003-8a80-d623e08f3ec2")
 	)
 	(junction
-		(at 86.36 92.71)
+		(at 87.63 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22fb808a-4f15-454a-9250-7bfabec71478")
 	)
 	(junction
-		(at 137.16 46.99)
+		(at 138.43 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23f83a6e-62f2-4f6d-926e-d3dbc8799447")
 	)
 	(junction
-		(at 125.73 46.99)
+		(at 127 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "287ce1fb-45c1-4d3b-82cc-0df1b7cdef1c")
 	)
 	(junction
-		(at 168.91 34.29)
+		(at 170.18 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29fe3e05-d603-4958-a4be-7e4e49db7dfd")
 	)
 	(junction
-		(at 45.72 167.64)
+		(at 46.99 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "313c640a-c823-4f8e-865f-fb598a012d40")
 	)
 	(junction
-		(at 59.69 92.71)
+		(at 60.96 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34407862-a278-4d0f-9d2e-4354373ddf26")
 	)
 	(junction
-		(at 120.65 162.56)
+		(at 86.36 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3723ea71-f866-4b6c-ad1d-8c7894ac2b18")
+		(uuid "34b27522-de4d-4672-b9be-60343db85fad")
 	)
 	(junction
-		(at 114.3 167.64)
+		(at 115.57 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b794f0f-9022-45ae-b7df-3bf3e872b176")
 	)
 	(junction
-		(at 115.57 58.42)
+		(at 119.38 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "40a8f8ed-bdbb-4969-8f37-64dca9043ba6")
+		(uuid "50d0d022-c86c-4683-aa2c-9e0f5a01f73c")
 	)
 	(junction
-		(at 137.16 156.21)
+		(at 138.43 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52f4a037-965a-4da9-9ff9-4686470e76fb")
 	)
 	(junction
-		(at 113.03 101.6)
+		(at 74.93 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52f9ca53-5ce8-416b-a8f9-e70e17602e08")
+	)
+	(junction
+		(at 127 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54df21c9-ee5f-459e-b09b-df506ace7148")
+	)
+	(junction
+		(at 114.3 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "579fecea-0b22-4ad4-901c-c82ac38dfc9b")
 	)
 	(junction
-		(at 120.65 107.95)
+		(at 74.93 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "57aa7258-1199-4116-9c79-01eb72405e8b")
+		(uuid "598d45ee-e6b3-458f-bd36-72375941dc24")
 	)
 	(junction
-		(at 135.89 22.86)
+		(at 137.16 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a2bc255-04d6-482c-8ab1-9532e8de83b7")
 	)
 	(junction
-		(at 58.42 147.32)
+		(at 59.69 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a6a15a8-9795-49e9-84ca-888c9c35169b")
 	)
 	(junction
-		(at 85.09 135.89)
+		(at 86.36 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5cc2a04e-ddaf-4196-a353-43413d09dfd8")
 	)
 	(junction
-		(at 137.16 101.6)
+		(at 138.43 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "611a4531-f3ad-4de1-af27-741846fa06fb")
 	)
 	(junction
-		(at 151.13 34.29)
+		(at 152.4 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63c5bcb2-142e-4db7-a303-d253df14ed88")
 	)
 	(junction
-		(at 86.36 147.32)
+		(at 87.63 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ae3217e-786d-4c93-bdda-e8835e798c1f")
 	)
 	(junction
-		(at 125.73 26.67)
+		(at 127 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "736d0160-76da-404e-838a-abea6fea7831")
+	)
+	(junction
+		(at 127 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a0a8ab4-82d0-48c9-b5a4-0efbb6fc0e8f")
 	)
 	(junction
-		(at 73.66 147.32)
+		(at 74.93 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b979b02-dc36-45c6-a868-4bf70c659c66")
 	)
 	(junction
-		(at 50.8 92.71)
+		(at 52.07 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7fcbb7ca-3575-464d-8a40-9697ad8368c1")
 	)
 	(junction
-		(at 76.2 58.42)
+		(at 77.47 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86a5810f-53e3-4129-b6b3-2bce237ce327")
 	)
 	(junction
-		(at 125.73 135.89)
+		(at 127 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86fefd54-0b81-4bea-9452-0d827c14cf26")
 	)
 	(junction
-		(at 78.74 86.36)
+		(at 80.01 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8827b953-a616-41b5-a0bc-73a00cd8af13")
 	)
 	(junction
-		(at 177.8 46.99)
+		(at 179.07 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f7040a9-b32e-46ff-9782-f4821f7461e6")
 	)
 	(junction
-		(at 50.8 113.03)
+		(at 52.07 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f8cbec6-6265-4bd6-95e0-49215a682760")
 	)
 	(junction
-		(at 125.73 81.28)
+		(at 127 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91896a0b-a188-4539-8013-8c9be68ef74a")
 	)
 	(junction
-		(at 120.65 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9277f273-8fda-43f4-b6b1-6abceff6a898")
-	)
-	(junction
-		(at 73.66 92.71)
+		(at 74.93 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95bc7e8c-c7d0-4704-b5d9-85f6a36f1d09")
 	)
 	(junction
-		(at 85.09 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9cdda3bb-4184-4cac-b357-7c7a44639821")
-	)
-	(junction
-		(at 45.72 147.32)
+		(at 46.99 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9debf3b3-cb9c-4e25-88d7-8eefbad2efad")
 	)
 	(junction
-		(at 73.66 38.1)
+		(at 74.93 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a361c40a-68d4-4c87-97e4-647e4c54e045")
 	)
 	(junction
-		(at 73.66 113.03)
+		(at 74.93 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a98f5636-fa65-4e04-9d71-fd05cae7314e")
 	)
 	(junction
-		(at 58.42 38.1)
+		(at 116.84 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab98e847-9760-4cac-9dbc-b8f04d39ac6c")
+	)
+	(junction
+		(at 59.69 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae5e30f6-ecd4-49b7-abe4-4540f3a759e8")
 	)
 	(junction
-		(at 158.75 46.99)
+		(at 121.92 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b07f413b-a99b-4d87-8970-73521f7694b2")
+	)
+	(junction
+		(at 160.02 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b13d3050-e643-471c-a163-1d05de6d5f47")
 	)
 	(junction
-		(at 125.73 101.6)
+		(at 127 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b32f5c8f-534d-4d71-8aa4-01af956d7f1f")
 	)
 	(junction
-		(at 135.89 125.73)
+		(at 121.92 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5e0f569-382a-4cd8-91e6-0dc672316dee")
+	)
+	(junction
+		(at 137.16 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6375ab9-5e5d-4565-818a-34dfcaed740b")
 	)
 	(junction
-		(at 85.09 81.28)
+		(at 80.01 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc66ed53-3a5f-4e8e-b43d-40dfff22c8f7")
+	)
+	(junction
+		(at 127 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bcf73fe2-4f8b-4371-8604-e10f64d99aa1")
+	)
+	(junction
+		(at 86.36 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2be0b36-cab4-429e-8260-a629ad4f9894")
 	)
 	(junction
-		(at 113.03 156.21)
+		(at 74.93 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcd452d5-5352-4802-ad11-6d0bf1f7ffb9")
+	)
+	(junction
+		(at 121.92 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e26fd699-fba1-4463-95ea-29dc9fc06d00")
+	)
+	(junction
+		(at 114.3 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e767e886-8e5c-4363-8103-0a184faf85d2")
 	)
 	(junction
-		(at 113.03 46.99)
+		(at 114.3 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8c62d18-c61a-4564-ae94-a7f75c6be483")
 	)
 	(junction
-		(at 78.74 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "efeec5d1-5d3f-49d1-a913-f9c12dcef7c2")
-	)
-	(junction
-		(at 86.36 38.1)
+		(at 87.63 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4a99a6e-b8cc-40ca-81f9-a05c8e30fd1f")
 	)
 	(wire
 		(pts
-			(xy 120.65 110.49) (xy 113.03 110.49)
+			(xy 121.92 115.57) (xy 114.3 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1965,7 +2017,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 34.29) (xy 86.36 38.1)
+			(xy 87.63 39.37) (xy 87.63 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1975,17 +2027,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 15.24) (xy 85.09 15.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0555210e-99e8-4eee-93c1-c4f0377c70f2")
-	)
-	(wire
-		(pts
-			(xy 76.2 58.42) (xy 80.01 58.42)
+			(xy 77.47 63.5) (xy 81.28 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1995,17 +2037,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 26.67) (xy 83.82 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "077595b6-a290-4e3f-8292-1eb058e2e525")
-	)
-	(wire
-		(pts
-			(xy 125.73 101.6) (xy 120.65 101.6)
+			(xy 127 106.68) (xy 121.92 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2015,7 +2047,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 92.71) (xy 130.81 92.71)
+			(xy 87.63 97.79) (xy 132.08 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2025,7 +2057,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 125.73) (xy 168.91 125.73)
+			(xy 137.16 130.81) (xy 170.18 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2035,7 +2067,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 92.71) (xy 78.74 92.71)
+			(xy 74.93 97.79) (xy 80.01 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2045,7 +2077,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 113.03) (xy 80.01 113.03)
+			(xy 74.93 118.11) (xy 81.28 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2055,7 +2087,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 92.71) (xy 86.36 88.9)
+			(xy 87.63 97.79) (xy 87.63 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2065,7 +2097,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 46.99) (xy 71.12 50.8)
+			(xy 72.39 52.07) (xy 72.39 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2075,7 +2107,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 147.32) (xy 130.81 147.32)
+			(xy 87.63 152.4) (xy 132.08 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2085,7 +2117,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 147.32) (xy 45.72 43.18)
+			(xy 46.99 152.4) (xy 46.99 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2095,7 +2127,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 83.82) (xy 86.36 83.82)
+			(xy 80.01 88.9) (xy 87.63 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2105,7 +2137,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 124.46) (xy 137.16 106.68)
+			(xy 138.43 129.54) (xy 138.43 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2115,7 +2147,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 138.43) (xy 86.36 138.43)
+			(xy 80.01 143.51) (xy 87.63 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2125,7 +2157,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 142.24) (xy 58.42 127)
+			(xy 59.69 147.32) (xy 59.69 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2135,7 +2167,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 101.6) (xy 158.75 101.6)
+			(xy 138.43 106.68) (xy 160.02 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2145,7 +2177,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 147.32) (xy 78.74 147.32)
+			(xy 74.93 152.4) (xy 80.01 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2155,7 +2187,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 34.29) (xy 151.13 34.29)
+			(xy 137.16 39.37) (xy 152.4 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2165,7 +2197,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 135.89) (xy 119.38 135.89)
+			(xy 127 140.97) (xy 120.65 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2175,7 +2207,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 167.64) (xy 114.3 167.64)
+			(xy 114.3 172.72) (xy 115.57 172.72)
 		)
 		(stroke
 			(width 0)
@@ -2185,17 +2217,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 127) (xy 85.09 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f5108e1-e711-4109-88e3-6aa7b225da4c")
-	)
-	(wire
-		(pts
-			(xy 68.58 105.41) (xy 68.58 101.6)
+			(xy 69.85 110.49) (xy 69.85 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2205,7 +2227,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 177.8) (xy 125.73 177.8)
+			(xy 116.84 63.5) (xy 119.38 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25da4d16-f90d-43a0-9444-63ed7a114c87")
+	)
+	(wire
+		(pts
+			(xy 46.99 182.88) (xy 127 182.88)
 		)
 		(stroke
 			(width 0)
@@ -2215,7 +2247,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 69.85) (xy 137.16 52.07)
+			(xy 138.43 74.93) (xy 138.43 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2225,7 +2257,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 167.64) (xy 45.72 147.32)
+			(xy 46.99 172.72) (xy 46.99 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2235,7 +2267,17 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 46.99) (xy 177.8 46.99)
+			(xy 121.92 58.42) (xy 127 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2da40ead-1b25-491b-ab9e-5faf7d622a89")
+	)
+	(wire
+		(pts
+			(xy 160.02 52.07) (xy 179.07 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2245,7 +2287,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 46.99) (xy 137.16 46.99)
+			(xy 127 52.07) (xy 138.43 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2255,17 +2297,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 53.34) (xy 120.65 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "336f7d33-de2e-4d97-bb43-3956ab2cfdf3")
-	)
-	(wire
-		(pts
-			(xy 86.36 86.36) (xy 78.74 86.36)
+			(xy 87.63 91.44) (xy 80.01 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2275,7 +2307,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 92.71) (xy 50.8 92.71)
+			(xy 60.96 97.79) (xy 52.07 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2285,17 +2317,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 86.36) (xy 78.74 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35ef220d-ef4b-4088-a737-0182366066e5")
-	)
-	(wire
-		(pts
-			(xy 114.3 180.34) (xy 137.16 180.34)
+			(xy 115.57 185.42) (xy 138.43 185.42)
 		)
 		(stroke
 			(width 0)
@@ -2305,7 +2327,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 167.64) (xy 115.57 167.64)
+			(xy 115.57 172.72) (xy 119.38 172.72)
 		)
 		(stroke
 			(width 0)
@@ -2315,7 +2337,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 33.02) (xy 58.42 15.24)
+			(xy 59.69 38.1) (xy 59.69 20.32)
 		)
 		(stroke
 			(width 0)
@@ -2325,7 +2347,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 46.99) (xy 71.12 46.99)
+			(xy 114.3 52.07) (xy 72.39 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2335,7 +2357,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 147.32) (xy 86.36 143.51)
+			(xy 87.63 152.4) (xy 87.63 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2345,7 +2367,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 38.1) (xy 130.81 38.1)
+			(xy 87.63 43.18) (xy 132.08 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2355,7 +2377,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 72.39) (xy 85.09 72.39)
+			(xy 60.96 77.47) (xy 86.36 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2365,17 +2387,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 162.56) (xy 120.65 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d355e3f-ae30-44ce-a639-1912932c0cbf")
-	)
-	(wire
-		(pts
-			(xy 135.89 22.86) (xy 135.89 34.29)
+			(xy 137.16 27.94) (xy 137.16 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2385,7 +2397,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 16.51) (xy 135.89 22.86)
+			(xy 137.16 21.59) (xy 137.16 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2395,7 +2407,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 113.03) (xy 50.8 123.19)
+			(xy 52.07 118.11) (xy 52.07 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2405,17 +2417,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 88.9) (xy 72.39 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42884473-866d-4eb6-b871-fed23e4ad16f")
-	)
-	(wire
-		(pts
-			(xy 125.73 77.47) (xy 125.73 81.28)
+			(xy 127 82.55) (xy 127 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2425,7 +2427,17 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 34.29) (xy 187.96 34.29)
+			(xy 59.69 132.08) (xy 86.36 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44f847fd-ebe5-4423-b3d1-c8a991f707a6")
+	)
+	(wire
+		(pts
+			(xy 170.18 39.37) (xy 189.23 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2435,7 +2447,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 46.99) (xy 187.96 46.99)
+			(xy 179.07 52.07) (xy 189.23 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2445,7 +2457,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 34.29) (xy 119.38 34.29)
+			(xy 127 39.37) (xy 120.65 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2455,7 +2467,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 46.99) (xy 120.65 46.99)
+			(xy 127 52.07) (xy 121.92 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2465,7 +2477,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 69.85) (xy 137.16 69.85)
+			(xy 116.84 74.93) (xy 138.43 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2475,7 +2487,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 71.12) (xy 135.89 77.47)
+			(xy 137.16 76.2) (xy 137.16 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2485,7 +2497,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 81.28) (xy 125.73 88.9)
+			(xy 127 86.36) (xy 127 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2495,7 +2507,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 123.19) (xy 125.73 123.19)
+			(xy 52.07 128.27) (xy 127 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2505,7 +2517,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 135.89) (xy 125.73 143.51)
+			(xy 127 140.97) (xy 127 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2515,7 +2527,17 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 113.03) (xy 50.8 113.03)
+			(xy 74.93 36.83) (xy 74.93 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56c66f22-8a83-499d-9cda-87fdf0471740")
+	)
+	(wire
+		(pts
+			(xy 64.77 118.11) (xy 52.07 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2525,17 +2547,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 91.44) (xy 78.74 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a67410a-bb59-4078-84a5-ea9ed3c229ad")
-	)
-	(wire
-		(pts
-			(xy 113.03 107.95) (xy 120.65 107.95)
+			(xy 114.3 113.03) (xy 121.92 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2545,7 +2557,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 55.88) (xy 120.65 53.34)
+			(xy 121.92 60.96) (xy 121.92 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2555,17 +2567,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 135.89) (xy 83.82 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ef066b1-81fd-4793-aed5-3c10bc62fcf4")
-	)
-	(wire
-		(pts
-			(xy 45.72 167.64) (xy 63.5 167.64)
+			(xy 46.99 172.72) (xy 64.77 172.72)
 		)
 		(stroke
 			(width 0)
@@ -2575,7 +2577,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 156.21) (xy 120.65 156.21)
+			(xy 127 161.29) (xy 121.92 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2585,7 +2587,17 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 160.02) (xy 68.58 156.21)
+			(xy 127 68.58) (xy 127 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "644a3e41-8bbc-44ba-934b-25567b43459b")
+	)
+	(wire
+		(pts
+			(xy 69.85 165.1) (xy 69.85 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2595,7 +2607,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 156.21) (xy 137.16 156.21)
+			(xy 127 161.29) (xy 138.43 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2605,17 +2617,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 48.26) (xy 120.65 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67b6b220-fc0a-4b3a-953e-8d2da4ae321c")
-	)
-	(wire
-		(pts
-			(xy 120.65 55.88) (xy 113.03 55.88)
+			(xy 121.92 60.96) (xy 114.3 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2625,7 +2627,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 177.8) (xy 45.72 167.64)
+			(xy 46.99 182.88) (xy 46.99 172.72)
 		)
 		(stroke
 			(width 0)
@@ -2635,7 +2637,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 156.21) (xy 177.8 156.21)
+			(xy 138.43 161.29) (xy 179.07 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2645,7 +2647,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 19.05) (xy 73.66 16.51)
+			(xy 74.93 21.59) (xy 74.93 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2655,7 +2657,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 92.71) (xy 59.69 92.71)
+			(xy 74.93 97.79) (xy 60.96 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2665,17 +2667,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 34.29) (xy 73.66 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7213421f-db73-4a0b-a0cb-ade0e43ec748")
-	)
-	(wire
-		(pts
-			(xy 125.73 26.67) (xy 125.73 34.29)
+			(xy 127 31.75) (xy 127 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2685,7 +2677,17 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 160.02) (xy 80.01 160.02)
+			(xy 74.93 130.81) (xy 74.93 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7332ef81-9d28-4632-a828-ce7724575710")
+	)
+	(wire
+		(pts
+			(xy 74.93 165.1) (xy 81.28 165.1)
 		)
 		(stroke
 			(width 0)
@@ -2695,7 +2697,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 38.1) (xy 45.72 38.1)
+			(xy 59.69 43.18) (xy 46.99 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2705,17 +2707,17 @@
 	)
 	(wire
 		(pts
-			(xy 127 157.48) (xy 120.65 157.48)
+			(xy 74.93 36.83) (xy 80.01 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "76be7de7-f64a-495a-9bd1-b2eaed09debb")
+		(uuid "77336c17-6159-4f2a-9ad2-04ee4cb2b5fb")
 	)
 	(wire
 		(pts
-			(xy 78.74 29.21) (xy 78.74 31.75)
+			(xy 80.01 34.29) (xy 80.01 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2725,7 +2727,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 81.28) (xy 119.38 81.28)
+			(xy 127 86.36) (xy 120.65 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2735,7 +2737,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 46.99) (xy 187.96 36.83)
+			(xy 189.23 52.07) (xy 189.23 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2745,7 +2747,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 125.73) (xy 135.89 125.73)
+			(xy 74.93 130.81) (xy 137.16 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2755,7 +2757,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 139.7) (xy 130.81 147.32)
+			(xy 132.08 144.78) (xy 132.08 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2765,7 +2767,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 101.6) (xy 113.03 101.6)
+			(xy 69.85 106.68) (xy 114.3 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2775,17 +2777,17 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 36.83) (xy 78.74 36.83)
+			(xy 59.69 20.32) (xy 86.36 20.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "85b26890-99c6-44f9-8ed8-6bd7fcba972a")
+		(uuid "85b4f6e7-5365-47b7-80e2-edc2db727967")
 	)
 	(wire
 		(pts
-			(xy 76.2 50.8) (xy 76.2 58.42)
+			(xy 77.47 55.88) (xy 77.47 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2795,17 +2797,17 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 31.75) (xy 78.74 36.83)
+			(xy 127 161.29) (xy 127 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "87f1f022-a7cd-48ae-929b-494e99e9c558")
+		(uuid "85dd2728-108a-4b27-a05d-3cda1e802db4")
 	)
 	(wire
 		(pts
-			(xy 73.66 167.64) (xy 73.66 160.02)
+			(xy 74.93 172.72) (xy 74.93 165.1)
 		)
 		(stroke
 			(width 0)
@@ -2815,7 +2817,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 15.24) (xy 85.09 26.67)
+			(xy 86.36 20.32) (xy 86.36 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2825,7 +2827,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 105.41) (xy 80.01 105.41)
+			(xy 74.93 110.49) (xy 81.28 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2835,27 +2837,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 160.02) (xy 125.73 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a7714d2-812a-4294-9fa3-8972618de3ab")
-	)
-	(wire
-		(pts
-			(xy 127 50.8) (xy 127 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a970c8a-f269-490c-89bb-449ef180625a")
-	)
-	(wire
-		(pts
-			(xy 120.65 165.1) (xy 113.03 165.1)
+			(xy 121.92 170.18) (xy 114.3 170.18)
 		)
 		(stroke
 			(width 0)
@@ -2865,7 +2847,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 58.42) (xy 115.57 69.85)
+			(xy 116.84 63.5) (xy 116.84 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2875,7 +2857,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 127) (xy 85.09 135.89)
+			(xy 86.36 132.08) (xy 86.36 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2885,7 +2867,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 85.09) (xy 130.81 92.71)
+			(xy 132.08 90.17) (xy 132.08 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2895,7 +2877,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 101.6) (xy 113.03 105.41)
+			(xy 114.3 106.68) (xy 114.3 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2905,7 +2887,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 83.82) (xy 78.74 86.36)
+			(xy 80.01 88.9) (xy 80.01 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2915,7 +2897,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 143.51) (xy 119.38 143.51)
+			(xy 127 148.59) (xy 120.65 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2925,7 +2907,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 120.65) (xy 125.73 123.19)
+			(xy 127 123.19) (xy 127 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2935,7 +2917,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 26.67) (xy 119.38 26.67)
+			(xy 127 31.75) (xy 120.65 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2945,7 +2927,17 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 81.28) (xy 85.09 81.28)
+			(xy 74.93 91.44) (xy 80.01 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96f7a0e3-8e7b-4dec-9c3f-17c357a2d99b")
+	)
+	(wire
+		(pts
+			(xy 87.63 86.36) (xy 86.36 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2955,7 +2947,17 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 165.1) (xy 120.65 162.56)
+			(xy 82.55 31.75) (xy 86.36 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97a32291-4631-4f51-9a4d-7be873338917")
+	)
+	(wire
+		(pts
+			(xy 121.92 170.18) (xy 121.92 167.64)
 		)
 		(stroke
 			(width 0)
@@ -2965,7 +2967,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 88.9) (xy 119.38 88.9)
+			(xy 127 93.98) (xy 120.65 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2975,7 +2977,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 38.1) (xy 58.42 38.1)
+			(xy 74.93 43.18) (xy 59.69 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2985,7 +2987,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 31.75) (xy 78.74 31.75)
+			(xy 87.63 36.83) (xy 80.01 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2995,7 +2997,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 29.21) (xy 86.36 29.21)
+			(xy 80.01 34.29) (xy 87.63 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3005,7 +3007,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 113.03) (xy 73.66 105.41)
+			(xy 74.93 118.11) (xy 74.93 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3015,7 +3017,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 50.8) (xy 125.73 46.99)
+			(xy 127 52.07) (xy 127 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3025,7 +3027,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 71.12) (xy 151.13 71.12)
+			(xy 137.16 76.2) (xy 152.4 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3035,7 +3037,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 167.64) (xy 114.3 180.34)
+			(xy 115.57 172.72) (xy 115.57 185.42)
 		)
 		(stroke
 			(width 0)
@@ -3045,27 +3047,17 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 146.05) (xy 78.74 146.05)
+			(xy 82.55 140.97) (xy 86.36 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a5a00690-b578-4808-96d3-106de17f556b")
+		(uuid "a6d8ee3b-2ec6-4651-b0ea-cc4bc478d1c0")
 	)
 	(wire
 		(pts
-			(xy 127 105.41) (xy 127 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a864b295-169b-4791-8061-72a0db5694e1")
-	)
-	(wire
-		(pts
-			(xy 73.66 38.1) (xy 78.74 38.1)
+			(xy 74.93 43.18) (xy 80.01 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3075,27 +3067,17 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 107.95) (xy 120.65 102.87)
+			(xy 121.92 167.64) (xy 127 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9a40cd0-3433-47ba-bb87-680441b1f2e2")
+		(uuid "ab1dbb7d-24ec-4c42-9b46-af6622679baa")
 	)
 	(wire
 		(pts
-			(xy 127 160.02) (xy 127 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac6873bc-a8fb-476b-9937-41858bc524ed")
-	)
-	(wire
-		(pts
-			(xy 86.36 140.97) (xy 78.74 140.97)
+			(xy 87.63 146.05) (xy 80.01 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3105,17 +3087,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 66.04) (xy 125.73 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad63804f-5dfa-4ac4-a3c5-38e700978cd0")
-	)
-	(wire
-		(pts
-			(xy 45.72 147.32) (xy 58.42 147.32)
+			(xy 46.99 152.4) (xy 59.69 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3125,7 +3097,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 71.12) (xy 135.89 71.12)
+			(xy 74.93 76.2) (xy 137.16 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3135,7 +3107,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 38.1) (xy 58.42 58.42)
+			(xy 59.69 43.18) (xy 59.69 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3145,7 +3117,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 135.89) (xy 85.09 135.89)
+			(xy 87.63 140.97) (xy 86.36 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3155,7 +3127,17 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 167.64) (xy 80.01 167.64)
+			(xy 119.38 172.72) (xy 120.65 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2f8e07a-b8a2-4b90-be89-9e6cc00d25a5")
+	)
+	(wire
+		(pts
+			(xy 74.93 172.72) (xy 81.28 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3165,7 +3147,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 147.32) (xy 73.66 147.32)
+			(xy 59.69 152.4) (xy 74.93 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3175,7 +3157,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 101.6) (xy 137.16 101.6)
+			(xy 127 106.68) (xy 138.43 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3185,7 +3167,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 113.03) (xy 115.57 113.03)
+			(xy 115.57 118.11) (xy 119.38 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3195,7 +3177,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 58.42) (xy 115.57 58.42)
+			(xy 114.3 63.5) (xy 116.84 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3205,7 +3187,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 105.41) (xy 125.73 101.6)
+			(xy 127 106.68) (xy 127 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3215,7 +3197,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 58.42) (xy 66.04 58.42)
+			(xy 59.69 63.5) (xy 67.31 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3225,17 +3207,27 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 34.29) (xy 72.39 36.83)
+			(xy 127 177.8) (xy 127 182.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c275a6da-752b-4c6a-9350-feb766296a70")
+		(uuid "c734b709-217e-4e77-861a-85303e5a42a2")
 	)
 	(wire
 		(pts
-			(xy 137.16 46.99) (xy 158.75 46.99)
+			(xy 74.93 146.05) (xy 74.93 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c791b78f-63f0-48b9-8138-e9c2aa821455")
+	)
+	(wire
+		(pts
+			(xy 138.43 52.07) (xy 160.02 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3245,7 +3237,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 16.51) (xy 135.89 16.51)
+			(xy 74.93 21.59) (xy 137.16 21.59)
 		)
 		(stroke
 			(width 0)
@@ -3255,7 +3247,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 156.21) (xy 177.8 46.99)
+			(xy 179.07 161.29) (xy 179.07 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3265,17 +3257,17 @@
 	)
 	(wire
 		(pts
-			(xy 127 102.87) (xy 120.65 102.87)
+			(xy 74.93 146.05) (xy 80.01 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cef03b1f-3566-41e8-afae-409c3ca36ab6")
+		(uuid "cda62e18-7c2c-45b3-b155-b7c5b5be96f0")
 	)
 	(wire
 		(pts
-			(xy 85.09 72.39) (xy 85.09 81.28)
+			(xy 86.36 77.47) (xy 86.36 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3285,7 +3277,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 101.6) (xy 158.75 46.99)
+			(xy 160.02 106.68) (xy 160.02 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3295,7 +3287,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 34.29) (xy 151.13 71.12)
+			(xy 152.4 39.37) (xy 152.4 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3305,7 +3297,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 53.34) (xy 120.65 53.34)
+			(xy 114.3 58.42) (xy 121.92 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3315,7 +3307,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 87.63) (xy 59.69 72.39)
+			(xy 60.96 92.71) (xy 60.96 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3325,7 +3317,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 68.58) (xy 125.73 68.58)
+			(xy 59.69 73.66) (xy 127 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3335,27 +3327,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 140.97) (xy 78.74 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d786342d-5d7b-4783-bbb9-bc9fd9a61245")
-	)
-	(wire
-		(pts
-			(xy 85.09 81.28) (xy 83.82 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7d3c412-d2e5-4b85-9ea8-3b55038057f0")
-	)
-	(wire
-		(pts
-			(xy 168.91 34.29) (xy 168.91 125.73)
+			(xy 170.18 39.37) (xy 170.18 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3365,27 +3337,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 175.26) (xy 125.73 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d908bb9d-700e-4cd2-b9f9-6247c9abf18f")
-	)
-	(wire
-		(pts
-			(xy 73.66 143.51) (xy 73.66 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9b96c00-57fb-46be-8ce5-ea63adaee025")
-	)
-	(wire
-		(pts
-			(xy 45.72 40.64) (xy 50.8 40.64)
+			(xy 46.99 45.72) (xy 52.07 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3395,7 +3347,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 124.46) (xy 137.16 124.46)
+			(xy 115.57 129.54) (xy 138.43 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3405,7 +3357,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 46.99) (xy 113.03 50.8)
+			(xy 114.3 52.07) (xy 114.3 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3415,7 +3367,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 40.64) (xy 50.8 92.71)
+			(xy 52.07 45.72) (xy 52.07 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3425,7 +3377,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 180.34) (xy 137.16 161.29)
+			(xy 138.43 185.42) (xy 138.43 166.37)
 		)
 		(stroke
 			(width 0)
@@ -3435,7 +3387,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 125.73) (xy 135.89 132.08)
+			(xy 137.16 130.81) (xy 137.16 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3445,7 +3397,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 50.8) (xy 80.01 50.8)
+			(xy 77.47 55.88) (xy 81.28 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3455,7 +3407,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 30.48) (xy 130.81 38.1)
+			(xy 132.08 35.56) (xy 132.08 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3465,7 +3417,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 156.21) (xy 113.03 156.21)
+			(xy 69.85 161.29) (xy 114.3 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3475,17 +3427,17 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 143.51) (xy 72.39 146.05)
+			(xy 82.55 86.36) (xy 86.36 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e88e46ee-3e6e-443c-8870-6dfa958da716")
+		(uuid "e67f614c-2201-482b-a007-19b222446e10")
 	)
 	(wire
 		(pts
-			(xy 114.3 113.03) (xy 114.3 124.46)
+			(xy 115.57 118.11) (xy 115.57 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3495,7 +3447,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 138.43) (xy 78.74 140.97)
+			(xy 80.01 143.51) (xy 80.01 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3505,17 +3457,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 88.9) (xy 73.66 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed7952c4-6ae7-4532-8b01-e0ed1d255945")
-	)
-	(wire
-		(pts
-			(xy 73.66 73.66) (xy 73.66 71.12)
+			(xy 74.93 76.2) (xy 74.93 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3525,7 +3467,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 22.86) (xy 125.73 26.67)
+			(xy 127 27.94) (xy 127 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3535,7 +3477,17 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 92.71) (xy 50.8 113.03)
+			(xy 74.93 91.44) (xy 74.93 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1f1a4b1-872e-4ab5-858b-b64a7dc39e9a")
+	)
+	(wire
+		(pts
+			(xy 52.07 97.79) (xy 52.07 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3545,7 +3497,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 156.21) (xy 113.03 160.02)
+			(xy 114.3 161.29) (xy 114.3 165.1)
 		)
 		(stroke
 			(width 0)
@@ -3555,7 +3507,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 132.08) (xy 125.73 135.89)
+			(xy 127 137.16) (xy 127 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3565,17 +3517,17 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 128.27) (xy 73.66 125.73)
+			(xy 121.92 113.03) (xy 127 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f8052f16-4afc-4e86-903c-3e8223ffe6b7")
+		(uuid "f9be6277-57d8-49fe-915e-4c7c76f8d5f2")
 	)
 	(wire
 		(pts
-			(xy 113.03 162.56) (xy 120.65 162.56)
+			(xy 114.3 167.64) (xy 121.92 167.64)
 		)
 		(stroke
 			(width 0)
@@ -3585,7 +3537,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 110.49) (xy 120.65 107.95)
+			(xy 121.92 115.57) (xy 121.92 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3595,7 +3547,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 34.29) (xy 168.91 34.29)
+			(xy 152.4 39.37) (xy 170.18 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3605,7 +3557,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 113.03) (xy 114.3 113.03)
+			(xy 114.3 118.11) (xy 115.57 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3615,7 +3567,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 26.67) (xy 85.09 26.67)
+			(xy 87.63 31.75) (xy 86.36 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3625,7 +3577,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 58.42) (xy 58.42 68.58)
+			(xy 59.69 63.5) (xy 59.69 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3635,7 +3587,7 @@
 	)
 	(symbol
 		(lib_id "Library:DN3135")
-		(at 130.81 25.4 270)
+		(at 132.08 30.48 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -3647,7 +3599,7 @@
 		(fields_autoplaced yes)
 		(uuid "02fdeeb3-0d84-4d3c-832a-94db79e2426b")
 		(property "Reference" "Q7"
-			(at 130.81 16.51 90)
+			(at 132.08 21.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3657,7 +3609,7 @@
 			)
 		)
 		(property "Value" "DN3135"
-			(at 130.81 19.05 90)
+			(at 132.08 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3667,7 +3619,7 @@
 			)
 		)
 		(property "Footprint" "Library:SOT-89_3MC_MCH"
-			(at 130.81 25.4 0)
+			(at 132.08 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3678,7 +3630,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 25.4 0)
+			(at 132.08 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3689,7 +3641,7 @@
 			)
 		)
 		(property "Description" "Depletion-mode N-channel MOSFET"
-			(at 130.81 25.4 0)
+			(at 132.08 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3719,7 +3671,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 82.55 147.32 90)
+		(at 83.82 152.4 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -3730,7 +3682,7 @@
 		(dnp no)
 		(uuid "0d5c46a1-0cb2-43de-90e8-cc2e67c28bb6")
 		(property "Reference" "CVDDA5"
-			(at 85.09 152.146 90)
+			(at 86.36 157.226 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3740,7 +3692,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 85.852 150.368 90)
+			(at 87.122 155.448 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3749,8 +3701,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 86.36 148.2852 0)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 87.63 153.3652 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3761,7 +3713,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 147.32 0)
+			(at 83.82 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3772,7 +3724,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 82.55 147.32 0)
+			(at 83.82 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3798,8 +3750,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 203.2 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22e685e3-a5ec-435b-a2a8-52fd455e03ff")
+		(property "Reference" "H1"
+			(at 205.74 85.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 205.74 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 203.2 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 203.2 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "better"
+				(path "/a0f3f199-a324-45eb-bc47-ebd3fcc9c215"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LT4322RMS8#PBF:LT4322RMS8#PBF")
-		(at 113.03 167.64 180)
+		(at 114.3 172.72 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3809,7 +3837,7 @@
 		(dnp no)
 		(uuid "266f1656-d5e3-45d9-94af-447623bc777b")
 		(property "Reference" "IC6"
-			(at 96.52 175.26 0)
+			(at 97.79 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3819,7 +3847,7 @@
 			)
 		)
 		(property "Value" "LT4322RMS8#PBF"
-			(at 96.52 172.72 0)
+			(at 97.79 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3829,7 +3857,7 @@
 			)
 		)
 		(property "Footprint" "LT4322:SOP65P490X110-8N"
-			(at 83.82 72.72 0)
+			(at 85.09 77.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3841,7 +3869,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.cn/datasheet/2/609/lt4322-3197784.pdf"
-			(at 83.82 -27.28 0)
+			(at 85.09 -22.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3853,7 +3881,7 @@
 			)
 		)
 		(property "Description" "Power Management Specialized - PMIC Floating, High-Voltage Active Rectifier Controller"
-			(at 113.03 167.64 0)
+			(at 114.3 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3864,7 +3892,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 83.82 -227.28 0)
+			(at 85.09 -222.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3876,7 +3904,7 @@
 			)
 		)
 		(property "Mouser Part Number" "584-LT4322RMS8#PBF"
-			(at 83.82 -327.28 0)
+			(at 85.09 -322.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3888,7 +3916,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LT4322RMS8PBF?qs=3Rah4i%252BhyCHsrl%2F2Y7F20A%3D%3D"
-			(at 83.82 -427.28 0)
+			(at 85.09 -422.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3900,7 +3928,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Analog Devices"
-			(at 83.82 -527.28 0)
+			(at 85.09 -522.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3912,7 +3940,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LT4322RMS8#PBF"
-			(at 83.82 -627.28 0)
+			(at 85.09 -622.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3924,7 +3952,7 @@
 			)
 		)
 		(property "Sim.Library" ".\\"
-			(at 113.03 167.64 0)
+			(at 114.3 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3968,8 +3996,198 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:BSC13DN30NSFD")
+		(at 77.47 31.75 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c0b5ad1-db9b-4382-91e6-823e7e0638c6")
+		(property "Reference" "Q13"
+			(at 71.12 30.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSC050N10NS5ATMA1"
+			(at 71.12 33.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+			(at 72.39 33.655 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSC13DN30NSFD-DS-v02_01-EN.pdf?fileId=5546d46259b0420a0159d5c940fc0d9a"
+			(at 72.39 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "16A Id, 300V Vds, OptiMOS N-Channel Power MOSFET, 130mOhm Ron, Qg (typ) 30.0nC, PG-TDSON-8"
+			(at 77.47 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e6e93297-52d1-473c-aaf5-830fbc6c2c94")
+		)
+		(pin "1"
+			(uuid "1212865b-b82d-41b8-ad99-713de860b95b")
+		)
+		(pin "3"
+			(uuid "3b2fbe6e-c078-4b91-b58b-50ea384251a9")
+		)
+		(pin "5"
+			(uuid "51a1e286-0df5-4208-bfec-e9eff1e02421")
+		)
+		(pin "4"
+			(uuid "49849b38-7920-40d7-bffe-e857b90d0e31")
+		)
+		(instances
+			(project "better"
+				(path "/a0f3f199-a324-45eb-bc47-ebd3fcc9c215"
+					(reference "Q13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSC13DN30NSFD")
+		(at 124.46 118.11 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39519cb5-fa63-4c72-9296-386667ad7efa")
+		(property "Reference" "Q17"
+			(at 130.81 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSC050N10NS5ATMA1"
+			(at 130.81 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+			(at 129.54 116.205 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSC13DN30NSFD-DS-v02_01-EN.pdf?fileId=5546d46259b0420a0159d5c940fc0d9a"
+			(at 129.54 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "16A Id, 300V Vds, OptiMOS N-Channel Power MOSFET, 130mOhm Ron, Qg (typ) 30.0nC, PG-TDSON-8"
+			(at 124.46 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "84a0608b-fb95-4988-8ca4-53bd1e923d69")
+		)
+		(pin "1"
+			(uuid "1929e29a-f300-4f4f-98db-0bc37e1367d6")
+		)
+		(pin "3"
+			(uuid "19148baa-6aa0-4a6f-bc7e-ebc650dc94fa")
+		)
+		(pin "5"
+			(uuid "ecb8c354-96c7-4036-8eef-360c8c506c45")
+		)
+		(pin "4"
+			(uuid "19ef8a2f-d80f-48c1-8865-c558bfa5af97")
+		)
+		(instances
+			(project "better"
+				(path "/a0f3f199-a324-45eb-bc47-ebd3fcc9c215"
+					(reference "Q17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
-		(at 82.55 92.71 90)
+		(at 83.82 97.79 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -3980,7 +4198,7 @@
 		(dnp no)
 		(uuid "4099dff6-5e83-44c0-9fab-cb41d7088793")
 		(property "Reference" "CVDDA3"
-			(at 85.09 97.536 90)
+			(at 86.36 102.616 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3990,7 +4208,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 85.852 95.758 90)
+			(at 87.122 100.838 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3999,8 +4217,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 86.36 93.6752 0)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 87.63 98.7552 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4011,7 +4229,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 92.71 0)
+			(at 83.82 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4022,7 +4240,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 82.55 92.71 0)
+			(at 83.82 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4049,7 +4267,7 @@
 	)
 	(symbol
 		(lib_id "LT4322RMS8#PBF:LT4322RMS8#PBF")
-		(at 86.36 81.28 0)
+		(at 87.63 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4059,7 +4277,7 @@
 		(dnp no)
 		(uuid "440f02fa-96c0-40ad-a450-2e4c97e24749")
 		(property "Reference" "IC3"
-			(at 102.87 73.66 0)
+			(at 104.14 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4069,7 +4287,7 @@
 			)
 		)
 		(property "Value" "LT4322RMS8#PBF"
-			(at 102.87 76.2 0)
+			(at 104.14 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4079,7 +4297,7 @@
 			)
 		)
 		(property "Footprint" "LT4322:SOP65P490X110-8N"
-			(at 115.57 176.2 0)
+			(at 116.84 181.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4091,7 +4309,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.cn/datasheet/2/609/lt4322-3197784.pdf"
-			(at 115.57 276.2 0)
+			(at 116.84 281.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4103,7 +4321,7 @@
 			)
 		)
 		(property "Description" "Power Management Specialized - PMIC Floating, High-Voltage Active Rectifier Controller"
-			(at 86.36 81.28 0)
+			(at 87.63 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4114,7 +4332,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 115.57 476.2 0)
+			(at 116.84 481.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4126,7 +4344,7 @@
 			)
 		)
 		(property "Mouser Part Number" "584-LT4322RMS8#PBF"
-			(at 115.57 576.2 0)
+			(at 116.84 581.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4138,7 +4356,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LT4322RMS8PBF?qs=3Rah4i%252BhyCHsrl%2F2Y7F20A%3D%3D"
-			(at 115.57 676.2 0)
+			(at 116.84 681.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4150,7 +4368,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Analog Devices"
-			(at 115.57 776.2 0)
+			(at 116.84 781.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4162,7 +4380,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LT4322RMS8#PBF"
-			(at 115.57 876.2 0)
+			(at 116.84 881.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4174,7 +4392,7 @@
 			)
 		)
 		(property "Sim.Library" ".\\"
-			(at 86.36 81.28 0)
+			(at 87.63 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4218,142 +4436,8 @@
 		)
 	)
 	(symbol
-		(lib_id "IRFS7430-7P:IRFS7430-7P")
-		(at 120.65 115.57 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "460bdf12-3957-427f-b880-2e62ed580f79")
-		(property "Reference" "Q4"
-			(at 130.81 112.5221 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRFS7430-7P"
-			(at 130.81 108.7121 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TO127P1524X508-8_7N-V1:TO127P1524X508-8_7N"
-			(at 120.65 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Insulated-Gate Field-Effect Transistor (IGFET), N-Channel, Enhancement, Body Diode, Pin 1 Gate, 2,3,5,6,7 Source, 4 Drain, 7 Pins"
-			(at 120.65 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Infineon Technologies"
-			(at 115.316 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer Order Number" "IRFS7430-7P"
-			(at 115.062 102.362 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PackageReference" "PG-TO263-7-900"
-			(at 115.062 100.076 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "7"
-			(uuid "b8a96bed-bd95-4630-b000-0f8fde2928fe")
-		)
-		(pin "6"
-			(uuid "db53b5f9-09a5-492e-880c-11594de1aa34")
-		)
-		(pin "4"
-			(uuid "2c04749b-03dc-4071-a3a1-e75c27b09f58")
-		)
-		(pin "1"
-			(uuid "693ba500-c422-4759-956a-445aa678b2f6")
-		)
-		(pin "3"
-			(uuid "b49dd207-5e42-49b9-86b1-bdbe8b566519")
-		)
-		(pin "2"
-			(uuid "b2651029-0ae0-4e5b-8a36-7a4445fcc44e")
-		)
-		(pin "5"
-			(uuid "d6975add-959a-4736-8925-b46368a476ba")
-		)
-		(instances
-			(project "better"
-				(path "/a0f3f199-a324-45eb-bc47-ebd3fcc9c215"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LT4322RMS8#PBF:LT4322RMS8#PBF")
-		(at 113.03 58.42 180)
+		(at 114.3 63.5 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4363,7 +4447,7 @@
 		(dnp no)
 		(uuid "54da2357-b2ce-49fe-81db-7455885c70b1")
 		(property "Reference" "IC1"
-			(at 96.52 66.04 0)
+			(at 97.79 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4373,7 +4457,7 @@
 			)
 		)
 		(property "Value" "LT4322RMS8#PBF"
-			(at 96.52 63.5 0)
+			(at 97.79 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4383,7 +4467,7 @@
 			)
 		)
 		(property "Footprint" "LT4322:SOP65P490X110-8N"
-			(at 83.82 -36.5 0)
+			(at 85.09 -31.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4395,7 +4479,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.cn/datasheet/2/609/lt4322-3197784.pdf"
-			(at 83.82 -136.5 0)
+			(at 85.09 -131.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4407,7 +4491,7 @@
 			)
 		)
 		(property "Description" "Power Management Specialized - PMIC Floating, High-Voltage Active Rectifier Controller"
-			(at 113.03 58.42 0)
+			(at 114.3 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4418,7 +4502,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 83.82 -336.5 0)
+			(at 85.09 -331.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4430,7 +4514,7 @@
 			)
 		)
 		(property "Mouser Part Number" "584-LT4322RMS8#PBF"
-			(at 83.82 -436.5 0)
+			(at 85.09 -431.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4442,7 +4526,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LT4322RMS8PBF?qs=3Rah4i%252BhyCHsrl%2F2Y7F20A%3D%3D"
-			(at 83.82 -536.5 0)
+			(at 85.09 -531.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4454,7 +4538,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Analog Devices"
-			(at 83.82 -636.5 0)
+			(at 85.09 -631.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4466,7 +4550,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LT4322RMS8#PBF"
-			(at 83.82 -736.5 0)
+			(at 85.09 -731.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4478,7 +4562,7 @@
 			)
 		)
 		(property "Sim.Library" ".\\"
-			(at 113.03 58.42 0)
+			(at 114.3 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4522,8 +4606,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 203.2 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5550ac43-f930-4826-a72e-46a9e275714e")
+		(property "Reference" "H4"
+			(at 205.74 113.0299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 205.74 115.5699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 203.2 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 203.2 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "better"
+				(path "/a0f3f199-a324-45eb-bc47-ebd3fcc9c215"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LT4322RMS8#PBF:LT4322RMS8#PBF")
-		(at 113.03 113.03 180)
+		(at 114.3 118.11 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4533,7 +4693,7 @@
 		(dnp no)
 		(uuid "55834f1d-8626-4610-b546-fc039a094091")
 		(property "Reference" "IC4"
-			(at 96.52 120.65 0)
+			(at 97.79 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4543,7 +4703,7 @@
 			)
 		)
 		(property "Value" "LT4322RMS8#PBF"
-			(at 96.52 118.11 0)
+			(at 97.79 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4553,7 +4713,7 @@
 			)
 		)
 		(property "Footprint" "LT4322:SOP65P490X110-8N"
-			(at 83.82 18.11 0)
+			(at 85.09 23.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4565,7 +4725,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.cn/datasheet/2/609/lt4322-3197784.pdf"
-			(at 83.82 -81.89 0)
+			(at 85.09 -76.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4577,7 +4737,7 @@
 			)
 		)
 		(property "Description" "Power Management Specialized - PMIC Floating, High-Voltage Active Rectifier Controller"
-			(at 113.03 113.03 0)
+			(at 114.3 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4588,7 +4748,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 83.82 -281.89 0)
+			(at 85.09 -276.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4600,7 +4760,7 @@
 			)
 		)
 		(property "Mouser Part Number" "584-LT4322RMS8#PBF"
-			(at 83.82 -381.89 0)
+			(at 85.09 -376.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4612,7 +4772,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LT4322RMS8PBF?qs=3Rah4i%252BhyCHsrl%2F2Y7F20A%3D%3D"
-			(at 83.82 -481.89 0)
+			(at 85.09 -476.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4624,7 +4784,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Analog Devices"
-			(at 83.82 -581.89 0)
+			(at 85.09 -576.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4636,7 +4796,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LT4322RMS8#PBF"
-			(at 83.82 -681.89 0)
+			(at 85.09 -676.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4648,7 +4808,7 @@
 			)
 		)
 		(property "Sim.Library" ".\\"
-			(at 113.03 113.03 0)
+			(at 114.3 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4692,42 +4852,41 @@
 		)
 	)
 	(symbol
-		(lib_id "IRFS7430-7P:IRFS7430-7P")
-		(at 120.65 170.18 0)
-		(mirror x)
+		(lib_id "Mechanical:MountingHole")
+		(at 204.47 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5b103304-1848-4622-af53-a9ef63c62d54")
-		(property "Reference" "Q6"
-			(at 130.81 167.1321 0)
+		(uuid "5a1729c9-e320-40e4-8f6a-0a56fd8d0ff7")
+		(property "Reference" "H2"
+			(at 207.01 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "IRFS7430-7P"
-			(at 130.81 163.3221 0)
+		(property "Value" "MountingHole"
+			(at 207.01 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO127P1524X508-8_7N-V1:TO127P1524X508-8_7N"
-			(at 120.65 170.18 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 204.47 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4738,7 +4897,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 170.18 0)
+			(at 204.47 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4748,8 +4907,8 @@
 				)
 			)
 		)
-		(property "Description" "Insulated-Gate Field-Effect Transistor (IGFET), N-Channel, Enhancement, Body Diode, Pin 1 Gate, 2,3,5,6,7 Source, 4 Drain, 7 Pins"
-			(at 120.65 170.18 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 204.47 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4758,68 +4917,11 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer" "Infineon Technologies"
-			(at 115.316 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer Order Number" "IRFS7430-7P"
-			(at 115.062 156.972 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PackageReference" "PG-TO263-7-900"
-			(at 115.062 154.686 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "7"
-			(uuid "ba857e80-97cd-422e-9d11-733ae3959ef4")
-		)
-		(pin "6"
-			(uuid "7c6c5409-7325-4f93-a235-5c5854f9d3ed")
-		)
-		(pin "4"
-			(uuid "67f99f9c-09be-47e1-82c1-8b96bb9dfe17")
-		)
-		(pin "1"
-			(uuid "1217d720-d2ec-4aca-9ecc-8eb992bcd4d4")
-		)
-		(pin "3"
-			(uuid "45c18e5c-ed47-4dde-8f5b-3301f173ca99")
-		)
-		(pin "2"
-			(uuid "4c77cf36-5a72-4f0d-9ce2-8063c897b671")
-		)
-		(pin "5"
-			(uuid "d418f2de-4ead-4ea4-97d2-3cd6bb117633")
 		)
 		(instances
 			(project "better"
 				(path "/a0f3f199-a324-45eb-bc47-ebd3fcc9c215"
-					(reference "Q6")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -4827,7 +4929,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 58.42 35.56 0)
+		(at 59.69 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4838,7 +4940,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d0c0312-f6ac-44d1-bff4-10861a493618")
 		(property "Reference" "C1"
-			(at 60.96 34.2962 0)
+			(at 62.23 39.3762 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4849,7 +4951,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 60.96 36.8362 0)
+			(at 62.23 41.9162 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4860,7 +4962,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 58.42 35.56 0)
+			(at 59.69 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4871,7 +4973,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 35.56 0)
+			(at 59.69 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4882,7 +4984,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 58.42 35.56 0)
+			(at 59.69 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4909,7 +5011,7 @@
 	)
 	(symbol
 		(lib_id "Library:DN3135")
-		(at 130.81 134.62 270)
+		(at 132.08 139.7 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -4921,7 +5023,7 @@
 		(fields_autoplaced yes)
 		(uuid "610670b0-907c-43cd-82c6-e26456eb5ee0")
 		(property "Reference" "Q9"
-			(at 130.81 125.73 90)
+			(at 132.08 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4931,7 +5033,7 @@
 			)
 		)
 		(property "Value" "DN3135"
-			(at 130.81 128.27 90)
+			(at 132.08 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4941,7 +5043,7 @@
 			)
 		)
 		(property "Footprint" "Library:SOT-89_3MC_MCH"
-			(at 130.81 134.62 0)
+			(at 132.08 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4952,7 +5054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 134.62 0)
+			(at 132.08 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4963,7 +5065,7 @@
 			)
 		)
 		(property "Description" "Depletion-mode N-channel MOSFET"
-			(at 130.81 134.62 0)
+			(at 132.08 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4992,8 +5094,8 @@
 		)
 	)
 	(symbol
-		(lib_id "IRFS7430-7P:IRFS7430-7P")
-		(at 78.74 133.35 0)
+		(lib_id "Transistor_FET:BSC13DN30NSFD")
+		(at 77.47 86.36 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5003,31 +5105,125 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8aba169c-4bb1-4ecf-a396-80958a2735f1")
-		(property "Reference" "Q5"
-			(at 68.58 136.3979 0)
+		(uuid "6e732bcc-85a3-4efc-85c2-677a9b915d99")
+		(property "Reference" "Q16"
+			(at 71.12 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "IRFS7430-7P"
-			(at 68.58 140.2079 0)
+		(property "Value" "BSC050N10NS5ATMA1"
+			(at 71.12 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO127P1524X508-8_7N-V1:TO127P1524X508-8_7N"
-			(at 78.74 133.35 0)
+		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+			(at 72.39 88.265 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSC13DN30NSFD-DS-v02_01-EN.pdf?fileId=5546d46259b0420a0159d5c940fc0d9a"
+			(at 72.39 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "16A Id, 300V Vds, OptiMOS N-Channel Power MOSFET, 130mOhm Ron, Qg (typ) 30.0nC, PG-TDSON-8"
+			(at 77.47 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b83fd547-efb1-42a2-8686-1b695516a26a")
+		)
+		(pin "1"
+			(uuid "e23a1ec1-efbd-477b-8bc2-426934c431a6")
+		)
+		(pin "3"
+			(uuid "ba670758-bad2-408f-8ada-764e2b6fd1e0")
+		)
+		(pin "5"
+			(uuid "ab9ec4d3-a6f9-4407-94d0-d548d7c2f9ad")
+		)
+		(pin "4"
+			(uuid "4ac021c2-481a-491d-93b2-4baee68b7724")
+		)
+		(instances
+			(project "better"
+				(path "/a0f3f199-a324-45eb-bc47-ebd3fcc9c215"
+					(reference "Q16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 204.47 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7875ab71-574f-43ba-a5fc-657213db7954")
+		(property "Reference" "H3"
+			(at 207.01 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 207.01 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 204.47 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5038,7 +5234,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 133.35 0)
+			(at 204.47 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5048,8 +5244,8 @@
 				)
 			)
 		)
-		(property "Description" "Insulated-Gate Field-Effect Transistor (IGFET), N-Channel, Enhancement, Body Diode, Pin 1 Gate, 2,3,5,6,7 Source, 4 Drain, 7 Pins"
-			(at 78.74 133.35 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 204.47 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5058,68 +5254,11 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer" "Infineon Technologies"
-			(at 84.074 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer Order Number" "IRFS7430-7P"
-			(at 84.328 146.558 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PackageReference" "PG-TO263-7-900"
-			(at 84.328 148.844 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "7"
-			(uuid "1a08d2a3-2a45-463c-8b82-ab1255e55bde")
-		)
-		(pin "6"
-			(uuid "faad984d-f58c-42f7-aab0-86f5cbccf96e")
-		)
-		(pin "4"
-			(uuid "dbf39f04-78eb-4cd4-ab90-c52521684451")
-		)
-		(pin "1"
-			(uuid "4d6a9a80-9fa1-478a-a955-2541904c5c35")
-		)
-		(pin "3"
-			(uuid "694b8c0b-bf4d-44b0-84e2-1a03cdaa56f2")
-		)
-		(pin "2"
-			(uuid "a582cbff-2c96-4702-87f3-9e0e0e9d87b2")
-		)
-		(pin "5"
-			(uuid "9c89a377-239a-4aae-b44b-bb0ac89e2a7d")
 		)
 		(instances
 			(project "better"
 				(path "/a0f3f199-a324-45eb-bc47-ebd3fcc9c215"
-					(reference "Q5")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -5127,7 +5266,7 @@
 	)
 	(symbol
 		(lib_id "Library:DN3135")
-		(at 68.58 110.49 90)
+		(at 69.85 115.57 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -5138,7 +5277,7 @@
 		(dnp no)
 		(uuid "8eb91181-32e1-49f4-9e27-57c32313ad30")
 		(property "Reference" "Q11"
-			(at 68.58 119.38 90)
+			(at 69.85 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5148,7 +5287,7 @@
 			)
 		)
 		(property "Value" "DN3135"
-			(at 68.58 116.84 90)
+			(at 69.85 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5158,7 +5297,7 @@
 			)
 		)
 		(property "Footprint" "Library:SOT-89_3MC_MCH"
-			(at 68.58 110.49 0)
+			(at 69.85 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5169,7 +5308,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 110.49 0)
+			(at 69.85 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5180,7 +5319,7 @@
 			)
 		)
 		(property "Description" "Depletion-mode N-channel MOSFET"
-			(at 68.58 110.49 0)
+			(at 69.85 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5209,142 +5348,8 @@
 		)
 	)
 	(symbol
-		(lib_id "IRFS7430-7P:IRFS7430-7P")
-		(at 78.74 78.74 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "945be0b5-ddf5-4187-b379-f0a285806661")
-		(property "Reference" "Q3"
-			(at 68.58 81.7879 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRFS7430-7P"
-			(at 68.58 85.5979 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TO127P1524X508-8_7N-V1:TO127P1524X508-8_7N"
-			(at 78.74 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Insulated-Gate Field-Effect Transistor (IGFET), N-Channel, Enhancement, Body Diode, Pin 1 Gate, 2,3,5,6,7 Source, 4 Drain, 7 Pins"
-			(at 78.74 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Infineon Technologies"
-			(at 84.074 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer Order Number" "IRFS7430-7P"
-			(at 84.328 91.948 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PackageReference" "PG-TO263-7-900"
-			(at 84.328 94.234 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "7"
-			(uuid "4335e892-2a0d-47ee-9d27-d51f4bd4d7f3")
-		)
-		(pin "6"
-			(uuid "b8eb5722-3c87-4734-b75d-b481a06c7b45")
-		)
-		(pin "4"
-			(uuid "bff63a83-0210-40cd-bf84-dd18843ab04a")
-		)
-		(pin "1"
-			(uuid "ec4d3279-b87d-40fb-97b1-66aa9ac9dd66")
-		)
-		(pin "3"
-			(uuid "10feb352-1fd9-4964-b287-2c1216f22984")
-		)
-		(pin "2"
-			(uuid "459f3dd9-3d40-4717-b2c7-0fe09643421f")
-		)
-		(pin "5"
-			(uuid "84f3dd86-dbde-47fc-9088-48889c565afd")
-		)
-		(instances
-			(project "better"
-				(path "/a0f3f199-a324-45eb-bc47-ebd3fcc9c215"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
-		(at 137.16 104.14 0)
+		(at 138.43 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5355,7 +5360,7 @@
 		(fields_autoplaced yes)
 		(uuid "96ce5133-96a5-4773-9c27-929d05da9538")
 		(property "Reference" "C4"
-			(at 139.7 102.8762 0)
+			(at 140.97 107.9562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5366,7 +5371,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 139.7 105.4162 0)
+			(at 140.97 110.4962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5377,7 +5382,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 137.16 104.14 0)
+			(at 138.43 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5388,7 +5393,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 104.14 0)
+			(at 138.43 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5399,7 +5404,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 137.16 104.14 0)
+			(at 138.43 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5426,7 +5431,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 193.04 34.29 0)
+		(at 194.31 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5437,7 +5442,7 @@
 		(fields_autoplaced yes)
 		(uuid "aab6dc65-6f7c-46d6-be6f-f6e6e891fe88")
 		(property "Reference" "J1"
-			(at 195.58 34.2899 0)
+			(at 196.85 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5448,7 +5453,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 195.58 36.8299 0)
+			(at 196.85 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5458,8 +5463,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical"
-			(at 193.04 34.29 0)
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm"
+			(at 194.31 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5470,7 +5475,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 34.29 0)
+			(at 194.31 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5481,7 +5486,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 193.04 34.29 0)
+			(at 194.31 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5507,8 +5512,8 @@
 		)
 	)
 	(symbol
-		(lib_id "IRFS7430-7P:IRFS7430-7P")
-		(at 120.65 60.96 0)
+		(lib_id "Transistor_FET:BSC13DN30NSFD")
+		(at 124.46 63.5 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -5518,31 +5523,56 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "adf1db71-b01a-47ed-8bc5-1f4f6a757071")
-		(property "Reference" "Q1"
-			(at 130.81 57.9121 0)
+		(uuid "af3d412f-67e0-4d8a-867b-f23b50f8532a")
+		(property "Reference" "Q14"
+			(at 130.81 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "IRFS7430-7P"
-			(at 130.81 54.1021 0)
+		(property "Value" "BSC050N10NS5ATMA1"
+			(at 130.81 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.8288 1.8288)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO127P1524X508-8_7N-V1:TO127P1524X508-8_7N"
-			(at 120.65 60.96 0)
+		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+			(at 129.54 61.595 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSC13DN30NSFD-DS-v02_01-EN.pdf?fileId=5546d46259b0420a0159d5c940fc0d9a"
+			(at 129.54 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "16A Id, 300V Vds, OptiMOS N-Channel Power MOSFET, 130mOhm Ron, Qg (typ) 30.0nC, PG-TDSON-8"
+			(at 124.46 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5551,90 +5581,26 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Insulated-Gate Field-Effect Transistor (IGFET), N-Channel, Enhancement, Body Diode, Pin 1 Gate, 2,3,5,6,7 Source, 4 Drain, 7 Pins"
-			(at 120.65 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Infineon Technologies"
-			(at 115.316 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer Order Number" "IRFS7430-7P"
-			(at 115.062 47.752 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PackageReference" "PG-TO263-7-900"
-			(at 115.062 45.466 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "7"
-			(uuid "1f3e5503-e1dd-4a4e-987d-406724962a28")
-		)
-		(pin "6"
-			(uuid "3d0ac28e-a10d-4345-ba52-cfaf601330e3")
-		)
-		(pin "4"
-			(uuid "04d5d905-99cb-4527-8425-424791c91cb5")
-		)
-		(pin "1"
-			(uuid "1a90daf4-f497-4132-8fc6-d16a3de81f12")
-		)
-		(pin "3"
-			(uuid "ae532a19-bb67-4db5-a0da-f96c2c9022af")
 		)
 		(pin "2"
-			(uuid "2fdbff2c-c0f2-4799-a305-9cee374329fb")
+			(uuid "a4b65f75-713c-4f2a-81b6-a1423aec0d57")
+		)
+		(pin "1"
+			(uuid "9a8ea4c8-821a-48c9-a67a-1467cdb8bf4f")
+		)
+		(pin "3"
+			(uuid "5f134e1e-c5d8-4602-b88b-e6c05e8a1b3d")
 		)
 		(pin "5"
-			(uuid "1124adf2-604f-48fb-a0e3-3fa94c4a1397")
+			(uuid "5a10ffca-d012-4620-bb1c-36cbb19d0562")
+		)
+		(pin "4"
+			(uuid "a9dd16b0-2192-47e8-80fb-9364b5692bd0")
 		)
 		(instances
 			(project "better"
 				(path "/a0f3f199-a324-45eb-bc47-ebd3fcc9c215"
-					(reference "Q1")
+					(reference "Q14")
 					(unit 1)
 				)
 			)
@@ -5642,7 +5608,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 58.42 144.78 0)
+		(at 59.69 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5653,7 +5619,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1253325-5b1c-4c5b-bf97-5a0bfa9da7fd")
 		(property "Reference" "C5"
-			(at 60.96 143.5162 0)
+			(at 62.23 148.5962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5664,7 +5630,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 60.96 146.0562 0)
+			(at 62.23 151.1362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5675,7 +5641,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 58.42 144.78 0)
+			(at 59.69 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5686,7 +5652,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 144.78 0)
+			(at 59.69 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5697,7 +5663,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 58.42 144.78 0)
+			(at 59.69 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5724,7 +5690,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 137.16 49.53 0)
+		(at 138.43 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5735,7 +5701,7 @@
 		(fields_autoplaced yes)
 		(uuid "c558aa01-4028-4dc8-b325-97b8149d75d8")
 		(property "Reference" "C2"
-			(at 139.7 48.2662 0)
+			(at 140.97 53.3462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5746,7 +5712,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 139.7 50.8062 0)
+			(at 140.97 55.8862 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5757,7 +5723,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 137.16 49.53 0)
+			(at 138.43 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5768,7 +5734,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 49.53 0)
+			(at 138.43 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5779,7 +5745,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 137.16 49.53 0)
+			(at 138.43 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5806,7 +5772,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 137.16 158.75 0)
+		(at 138.43 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5817,7 +5783,7 @@
 		(fields_autoplaced yes)
 		(uuid "c654e1d7-9a48-462c-ad1c-b860e1a0930d")
 		(property "Reference" "C6"
-			(at 139.7 157.4862 0)
+			(at 140.97 162.5662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5828,7 +5794,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 139.7 160.0262 0)
+			(at 140.97 165.1062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5839,7 +5805,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 137.16 158.75 0)
+			(at 138.43 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5850,7 +5816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 158.75 0)
+			(at 138.43 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5861,7 +5827,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 137.16 158.75 0)
+			(at 138.43 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5888,7 +5854,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 59.69 90.17 0)
+		(at 60.96 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5899,7 +5865,7 @@
 		(fields_autoplaced yes)
 		(uuid "c741dac3-c078-4cd9-b380-8a3aae642cc7")
 		(property "Reference" "C3"
-			(at 62.23 88.9062 0)
+			(at 63.5 93.9862 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5910,7 +5876,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 62.23 91.4462 0)
+			(at 63.5 96.5262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5921,7 +5887,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 59.69 90.17 0)
+			(at 60.96 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5932,7 +5898,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 90.17 0)
+			(at 60.96 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5943,7 +5909,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 59.69 90.17 0)
+			(at 60.96 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5970,7 +5936,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 82.55 38.1 90)
+		(at 83.82 43.18 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -5981,7 +5947,7 @@
 		(dnp no)
 		(uuid "c7ec34be-4fa6-4c4f-af61-f59f4ff9939d")
 		(property "Reference" "CVDDA2"
-			(at 85.09 42.926 90)
+			(at 86.36 48.006 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5991,7 +5957,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 85.852 41.148 90)
+			(at 87.122 46.228 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6000,8 +5966,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 86.36 39.0652 0)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 87.63 44.1452 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6012,7 +5978,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 38.1 0)
+			(at 83.82 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6023,7 +5989,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 82.55 38.1 0)
+			(at 83.82 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6049,8 +6015,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:BSC13DN30NSFD")
+		(at 77.47 140.97 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cae27449-c00f-4ec7-9f30-9e9afae134a7")
+		(property "Reference" "Q18"
+			(at 71.12 139.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSC050N10NS5ATMA1"
+			(at 71.12 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+			(at 72.39 142.875 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSC13DN30NSFD-DS-v02_01-EN.pdf?fileId=5546d46259b0420a0159d5c940fc0d9a"
+			(at 72.39 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "16A Id, 300V Vds, OptiMOS N-Channel Power MOSFET, 130mOhm Ron, Qg (typ) 30.0nC, PG-TDSON-8"
+			(at 77.47 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d4105556-8c03-4d0f-89c9-9cecd275f5b1")
+		)
+		(pin "1"
+			(uuid "f926d180-df80-496e-8600-367f5c7f55b7")
+		)
+		(pin "3"
+			(uuid "ee144383-adad-4d5a-9591-a812dd901b14")
+		)
+		(pin "5"
+			(uuid "cb44f718-9049-492c-b63c-c15e7e7fcad5")
+		)
+		(pin "4"
+			(uuid "b4b22c25-799f-41bb-868d-7e8979b8ad8e")
+		)
+		(instances
+			(project "better"
+				(path "/a0f3f199-a324-45eb-bc47-ebd3fcc9c215"
+					(reference "Q18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LT4322RMS8#PBF:LT4322RMS8#PBF")
-		(at 86.36 26.67 0)
+		(at 87.63 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6060,7 +6121,7 @@
 		(dnp no)
 		(uuid "cfb46315-f6e8-4267-accf-c76761f3a959")
 		(property "Reference" "IC2"
-			(at 102.87 19.05 0)
+			(at 104.14 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6070,7 +6131,7 @@
 			)
 		)
 		(property "Value" "LT4322RMS8#PBF"
-			(at 102.87 21.59 0)
+			(at 104.14 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6080,7 +6141,7 @@
 			)
 		)
 		(property "Footprint" "LT4322:SOP65P490X110-8N"
-			(at 115.57 121.59 0)
+			(at 116.84 126.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6092,7 +6153,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.cn/datasheet/2/609/lt4322-3197784.pdf"
-			(at 115.57 221.59 0)
+			(at 116.84 226.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6104,7 +6165,7 @@
 			)
 		)
 		(property "Description" "Power Management Specialized - PMIC Floating, High-Voltage Active Rectifier Controller"
-			(at 86.36 26.67 0)
+			(at 87.63 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6115,7 +6176,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 115.57 421.59 0)
+			(at 116.84 426.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6127,7 +6188,7 @@
 			)
 		)
 		(property "Mouser Part Number" "584-LT4322RMS8#PBF"
-			(at 115.57 521.59 0)
+			(at 116.84 526.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6139,7 +6200,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LT4322RMS8PBF?qs=3Rah4i%252BhyCHsrl%2F2Y7F20A%3D%3D"
-			(at 115.57 621.59 0)
+			(at 116.84 626.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6151,7 +6212,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Analog Devices"
-			(at 115.57 721.59 0)
+			(at 116.84 726.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6163,7 +6224,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LT4322RMS8#PBF"
-			(at 115.57 821.59 0)
+			(at 116.84 826.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6175,7 +6236,7 @@
 			)
 		)
 		(property "Sim.Library" ".\\"
-			(at 86.36 26.67 0)
+			(at 87.63 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6220,7 +6281,7 @@
 	)
 	(symbol
 		(lib_id "LT4322RMS8#PBF:LT4322RMS8#PBF")
-		(at 86.36 135.89 0)
+		(at 87.63 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6230,7 +6291,7 @@
 		(dnp no)
 		(uuid "d45b5a99-1b59-4309-bf4c-c5aa70c04ac3")
 		(property "Reference" "IC5"
-			(at 102.87 128.27 0)
+			(at 104.14 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6240,7 +6301,7 @@
 			)
 		)
 		(property "Value" "LT4322RMS8#PBF"
-			(at 102.87 130.81 0)
+			(at 104.14 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6250,7 +6311,7 @@
 			)
 		)
 		(property "Footprint" "LT4322:SOP65P490X110-8N"
-			(at 115.57 230.81 0)
+			(at 116.84 235.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6262,7 +6323,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.cn/datasheet/2/609/lt4322-3197784.pdf"
-			(at 115.57 330.81 0)
+			(at 116.84 335.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6274,7 +6335,7 @@
 			)
 		)
 		(property "Description" "Power Management Specialized - PMIC Floating, High-Voltage Active Rectifier Controller"
-			(at 86.36 135.89 0)
+			(at 87.63 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6285,7 +6346,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 115.57 530.81 0)
+			(at 116.84 535.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6297,7 +6358,7 @@
 			)
 		)
 		(property "Mouser Part Number" "584-LT4322RMS8#PBF"
-			(at 115.57 630.81 0)
+			(at 116.84 635.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6309,7 +6370,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LT4322RMS8PBF?qs=3Rah4i%252BhyCHsrl%2F2Y7F20A%3D%3D"
-			(at 115.57 730.81 0)
+			(at 116.84 735.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6321,7 +6382,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Analog Devices"
-			(at 115.57 830.81 0)
+			(at 116.84 835.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6333,7 +6394,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LT4322RMS8#PBF"
-			(at 115.57 930.81 0)
+			(at 116.84 935.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6345,7 +6406,7 @@
 			)
 		)
 		(property "Sim.Library" ".\\"
-			(at 86.36 135.89 0)
+			(at 87.63 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6390,7 +6451,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 40.64 40.64 0)
+		(at 41.91 45.72 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6401,7 +6462,7 @@
 		(dnp no)
 		(uuid "d4de83c5-0733-471e-be82-b0860644247a")
 		(property "Reference" "J2"
-			(at 38.1 39.3699 0)
+			(at 39.37 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6412,7 +6473,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 38.1 41.9099 0)
+			(at 39.37 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6422,8 +6483,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
-			(at 40.64 40.64 0)
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+			(at 41.91 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6434,7 +6495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 40.64 0)
+			(at 41.91 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6445,7 +6506,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 40.64 40.64 0)
+			(at 41.91 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6475,7 +6536,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 116.84 101.6 270)
+		(at 118.11 106.68 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -6486,7 +6547,7 @@
 		(dnp no)
 		(uuid "dc96771b-09d6-4342-9aea-68e8b27b38e6")
 		(property "Reference" "CVDDA4"
-			(at 114.3 96.774 90)
+			(at 115.57 101.854 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6496,7 +6557,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 113.538 98.552 90)
+			(at 114.808 103.632 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6505,8 +6566,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 113.03 100.6348 0)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 114.3 105.7148 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6517,7 +6578,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 101.6 0)
+			(at 118.11 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6528,7 +6589,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 116.84 101.6 0)
+			(at 118.11 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6555,7 +6616,7 @@
 	)
 	(symbol
 		(lib_id "Library:DN3135")
-		(at 71.12 55.88 90)
+		(at 72.39 60.96 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -6566,7 +6627,7 @@
 		(dnp no)
 		(uuid "dcec0e81-b916-468f-8370-caacf07d61d9")
 		(property "Reference" "Q10"
-			(at 71.12 64.77 90)
+			(at 72.39 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6576,7 +6637,7 @@
 			)
 		)
 		(property "Value" "DN3135"
-			(at 71.12 62.23 90)
+			(at 72.39 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6586,7 +6647,7 @@
 			)
 		)
 		(property "Footprint" "Library:SOT-89_3MC_MCH"
-			(at 71.12 55.88 0)
+			(at 72.39 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6597,7 +6658,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 55.88 0)
+			(at 72.39 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6608,7 +6669,7 @@
 			)
 		)
 		(property "Description" "Depletion-mode N-channel MOSFET"
-			(at 71.12 55.88 0)
+			(at 72.39 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6638,7 +6699,7 @@
 	)
 	(symbol
 		(lib_id "Library:DN3135")
-		(at 130.81 80.01 270)
+		(at 132.08 85.09 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -6650,7 +6711,7 @@
 		(fields_autoplaced yes)
 		(uuid "df586d00-d367-4dad-8e15-19376a74837b")
 		(property "Reference" "Q8"
-			(at 130.81 71.12 90)
+			(at 132.08 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6660,7 +6721,7 @@
 			)
 		)
 		(property "Value" "DN3135"
-			(at 130.81 73.66 90)
+			(at 132.08 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6670,7 +6731,7 @@
 			)
 		)
 		(property "Footprint" "Library:SOT-89_3MC_MCH"
-			(at 130.81 80.01 0)
+			(at 132.08 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6681,7 +6742,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 80.01 0)
+			(at 132.08 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6692,7 +6753,7 @@
 			)
 		)
 		(property "Description" "Depletion-mode N-channel MOSFET"
-			(at 130.81 80.01 0)
+			(at 132.08 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6722,7 +6783,7 @@
 	)
 	(symbol
 		(lib_id "Library:DN3135")
-		(at 68.58 165.1 90)
+		(at 69.85 170.18 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -6733,7 +6794,7 @@
 		(dnp no)
 		(uuid "e08b6cc0-17f4-4d73-83d7-2d791b735be9")
 		(property "Reference" "Q12"
-			(at 68.58 173.99 90)
+			(at 69.85 179.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6743,7 +6804,7 @@
 			)
 		)
 		(property "Value" "DN3135"
-			(at 68.58 171.45 90)
+			(at 69.85 176.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6753,7 +6814,7 @@
 			)
 		)
 		(property "Footprint" "Library:SOT-89_3MC_MCH"
-			(at 68.58 165.1 0)
+			(at 69.85 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6764,7 +6825,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 165.1 0)
+			(at 69.85 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6775,7 +6836,7 @@
 			)
 		)
 		(property "Description" "Depletion-mode N-channel MOSFET"
-			(at 68.58 165.1 0)
+			(at 69.85 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6804,142 +6865,8 @@
 		)
 	)
 	(symbol
-		(lib_id "IRFS7430-7P:IRFS7430-7P")
-		(at 78.74 24.13 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e804e2ed-322e-4125-b811-4ccdd7a9aa29")
-		(property "Reference" "Q2"
-			(at 68.58 27.1779 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRFS7430-7P"
-			(at 68.58 30.9879 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TO127P1524X508-8_7N-V1:TO127P1524X508-8_7N"
-			(at 78.74 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Insulated-Gate Field-Effect Transistor (IGFET), N-Channel, Enhancement, Body Diode, Pin 1 Gate, 2,3,5,6,7 Source, 4 Drain, 7 Pins"
-			(at 78.74 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Infineon Technologies"
-			(at 84.074 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer Order Number" "IRFS7430-7P"
-			(at 84.328 37.338 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PackageReference" "PG-TO263-7-900"
-			(at 84.328 39.624 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "7"
-			(uuid "4bcfcf0e-bba5-4d94-9418-d88fc642d16d")
-		)
-		(pin "6"
-			(uuid "f4562f41-f252-4294-a42d-69c8f5406530")
-		)
-		(pin "4"
-			(uuid "691d271c-a43a-4bbc-b9dd-b1313b27c818")
-		)
-		(pin "1"
-			(uuid "32119064-3bb8-45c5-917d-2be7ce55a762")
-		)
-		(pin "3"
-			(uuid "4e2e44ff-efd9-4d4d-bf7b-e3f2109cac55")
-		)
-		(pin "2"
-			(uuid "4bdf5fbf-f8ae-4b24-860a-25d23d5e5362")
-		)
-		(pin "5"
-			(uuid "08a48fe0-3482-43ed-ad6e-dd33feff45cd")
-		)
-		(instances
-			(project "better"
-				(path "/a0f3f199-a324-45eb-bc47-ebd3fcc9c215"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 116.84 46.99 270)
+		(at 118.11 52.07 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -6950,7 +6877,7 @@
 		(dnp no)
 		(uuid "edcda549-3239-4b86-b281-a25ad45c4ca8")
 		(property "Reference" "CVDDA1"
-			(at 114.3 42.164 90)
+			(at 115.57 47.244 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6960,7 +6887,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 113.538 43.942 90)
+			(at 114.808 49.022 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6969,8 +6896,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 113.03 46.0248 0)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 114.3 51.1048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6981,7 +6908,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 46.99 0)
+			(at 118.11 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6992,7 +6919,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 116.84 46.99 0)
+			(at 118.11 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7019,7 +6946,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 116.84 156.21 270)
+		(at 118.11 161.29 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -7030,7 +6957,7 @@
 		(dnp no)
 		(uuid "f9ba223c-9012-4ed6-b8bb-241c8c9a2039")
 		(property "Reference" "CVDDA6"
-			(at 114.3 151.384 90)
+			(at 115.57 156.464 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7040,7 +6967,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 113.538 153.162 90)
+			(at 114.808 158.242 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7049,8 +6976,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 113.03 155.2448 0)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 114.3 160.3248 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7061,7 +6988,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 156.21 0)
+			(at 118.11 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7072,7 +6999,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 116.84 156.21 0)
+			(at 118.11 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7092,6 +7019,101 @@
 			(project "better"
 				(path "/a0f3f199-a324-45eb-bc47-ebd3fcc9c215"
 					(reference "CVDDA6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSC13DN30NSFD")
+		(at 124.46 172.72 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff914444-63c9-46e5-a8ec-fd9ef93f1729")
+		(property "Reference" "Q19"
+			(at 130.81 171.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSC050N10NS5ATMA1"
+			(at 130.81 173.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+			(at 129.54 170.815 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSC13DN30NSFD-DS-v02_01-EN.pdf?fileId=5546d46259b0420a0159d5c940fc0d9a"
+			(at 129.54 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "16A Id, 300V Vds, OptiMOS N-Channel Power MOSFET, 130mOhm Ron, Qg (typ) 30.0nC, PG-TDSON-8"
+			(at 124.46 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "90ea91f8-f292-47b2-a7b7-0d20bb4e3982")
+		)
+		(pin "1"
+			(uuid "bfd02ff6-29a8-4237-968b-21d7d73a52f2")
+		)
+		(pin "3"
+			(uuid "dfeba2e6-a7ae-4c0b-b161-2f1b0ebc9705")
+		)
+		(pin "5"
+			(uuid "b4d4e6c3-6cf7-456c-ad7a-b9faadd8451b")
+		)
+		(pin "4"
+			(uuid "35166d0e-ca48-44a7-bb37-dfefce7719a7")
+		)
+		(instances
+			(project "better"
+				(path "/a0f3f199-a324-45eb-bc47-ebd3fcc9c215"
+					(reference "Q19")
 					(unit 1)
 				)
 			)
