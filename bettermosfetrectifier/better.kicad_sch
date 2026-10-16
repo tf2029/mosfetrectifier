@@ -4121,7 +4121,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SOT-89_3MC_MCH"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
 			(at 132.08 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -5624,7 +5624,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SOT-89_3MC_MCH"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
 			(at 132.08 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6115,7 +6115,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SOT-89_3MC_MCH"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
 			(at 69.85 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -7622,7 +7622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SOT-89_3MC_MCH"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
 			(at 72.39 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -7706,7 +7706,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SOT-89_3MC_MCH"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
 			(at 132.08 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7789,7 +7789,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SOT-89_3MC_MCH"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
 			(at 69.85 170.18 0)
 			(hide yes)
 			(show_name no)
